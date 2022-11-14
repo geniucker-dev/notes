@@ -1,4 +1,5 @@
 {
   "vimMode": true,
-  "useTab": false
+  "useTab": false,
+  "spellcheck": true
 }
