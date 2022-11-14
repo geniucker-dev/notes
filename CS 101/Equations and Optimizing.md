@@ -1,9 +1,10 @@
-## How do we represent equations on computers?
+## Equations
+### How do we represent equations on computers?
 - As a function  
 - write some expressions  
 - write as series (or we can say we represent an equation as a pair of arrays, `x` and `y`)  
 - We can also represent equations using symbols from the library `sympy` (later lectures).
-## How to quantify who is more efficient?
+### How to quantify who is more efficient?
 ***`timeit`***
 - not in jupyter: 
 ```python
@@ -25,7 +26,14 @@ import timeit
 # myCode is just your function name
 ```
 
-## Finding minimum of y
+## Solve an equation
+- Use graph  
+- Newton's Method
+    In conclusion, the iterative formular is: $x_n = x_{n-1} - \frac{x_{n-1}}{f'(x_{n-1})}$
+    In python, we can use `scipy.optimize.newton(f, x0)`
+
+## Optimize
+### Finding minimum of y
 ```python
 import scipy.optimize
 ```
