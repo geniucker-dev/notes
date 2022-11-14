@@ -1,4 +1,3 @@
-
 ## Input sources
 1. From user: `input`  
 2. From hard drive: `open(files)`  

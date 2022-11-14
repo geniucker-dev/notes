@@ -28,7 +28,7 @@ import timeit
 
 ## Solve an equation
 - Use graph  
-- Newton's Method
+- *Newton's Method*
     In conclusion, the iterative formular is: $x_n = x_{n-1} - \frac{x_{n-1}}{f'(x_{n-1})}$
     In python, we can use `scipy.optimize.newton(f, x0)`
 
@@ -63,3 +63,5 @@ It will print:
         x: array([-1.88846401e-08])
 ```
 If you want to get the optimized `x`, you can use `result.x`, others are similar.
+### Finding maxima of y
+You can find the minima of $-y$
