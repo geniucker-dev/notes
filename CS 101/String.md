@@ -1,6 +1,9 @@
 ## Methods
 [doc](https://docs.python.org/3/library/stdtypes.html#string-methods)
-- `str.split(delimiter:str)`: If the parameter is left omitted, the delimiter will be whitespace  
+- `str.split(sep=None, maxsplit=-1)`:  
+    `sep`: the delimiter string  
+    `maxsplit`: if given, at most `maxtsplit` splits are done, so the list will contain `maxtsplit+1` elements  
+> If `sep` is not specified or is None, a different splitting algorithm is applied: runs of consecutive whitespace are regarded as a single separator, and the result will contain no empty strings at the start or end if the string has leading or trailing whitespace. Consequently, splitting an empty string or a string consisting of just whitespace with a None separator returns [].
 - `star.join(aListOrStr)`  
 - `str.lower()`  
 - `str.upper()`  
