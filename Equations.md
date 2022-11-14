@@ -9,5 +9,5 @@
 ```python
 import timeit
 code = "for i in range(100): pass"
-xx = timeit.timeit(code, numbers=10000)
+xx = timeit.timeit(code, numbers=1000000)  # the default value of numbers is 1000000
 ```
