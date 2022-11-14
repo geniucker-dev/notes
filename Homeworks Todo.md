@@ -17,7 +17,7 @@
 
 ## ENGR
 - [x] HLM4 - Evaluative Interview Packet (@2022-11-13 23:59) ✅ 2022-11-14
-- [ ] Presentation (@2022-11-16 )
+- [ ] Presentation (@2022-11-16 7:00)
 - [ ] HM5 - Presentation (@2022-11-26 23:59)
 - [ ] Peer Review Form (@2022-11-21 23:59)
 
