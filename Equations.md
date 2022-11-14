@@ -6,3 +6,8 @@
 ## How to quantify who is more efficient?
 ***`timeit`***
 - not in jupyter: 
+```python
+import timeit
+code = "for i in range(100): pass"
+
+```
