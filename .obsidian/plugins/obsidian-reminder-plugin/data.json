@@ -1,0 +1,56 @@
+{
+  "scanned": true,
+  "reminders": {
+    "Homeworks Todo.md": [
+      {
+        "title": "HM5 - Presentation",
+        "time": "2022-11-15 08:00",
+        "rowNumber": 12
+      },
+      {
+        "title": "Poster",
+        "time": "2022-11-15",
+        "rowNumber": 23
+      },
+      {
+        "title": "Peer Review Form",
+        "time": "2022-11-21 23:59",
+        "rowNumber": 20
+      },
+      {
+        "title": "Postlab",
+        "time": "2022-11-24 12:00",
+        "rowNumber": 8
+      },
+      {
+        "title": "Prelab",
+        "time": "2022-11-24 12:00",
+        "rowNumber": 9
+      },
+      {
+        "title": "HM5 - Presentation",
+        "time": "2022-11-26 23:59",
+        "rowNumber": 19
+      }
+    ]
+  },
+  "debug": false,
+  "settings": {
+    "reminderTime": "09:00",
+    "laters": "In 30 minutes\nIn 1 hour\nIn 3 hours\nTomorrow\nNext week",
+    "useSystemNotification": true,
+    "autoCompleteTrigger": "(@",
+    "primaryReminderFormat": "ReminderPluginReminderFormat",
+    "enableReminderPluginReminderFormat": true,
+    "dateFormat": "YYYY-MM-DD",
+    "dateTimeFormat": "YYYY-MM-DD HH:mm",
+    "strictDateFormat": false,
+    "linkDatesToDailyNotes": false,
+    "enableTasksPluginReminderFormat": false,
+    "useCustomEmojiForTasksPlugin": false,
+    "removeTagsForTasksPlugin": false,
+    "enableKanbanPluginReminderFormat": false,
+    "editDetectionSec": 10,
+    "reminderCheckIntervalSec": 5
+  }
+}
