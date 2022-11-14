@@ -5,7 +5,17 @@
 ```python
 x = 3.141
 y = x
+
+y = 4.0
 ```
-    ![[Mutability.excalidraw]]
+    ![[Immutability.excalidraw]]
 - **Mutability** describes values that are **changeable** in memory, often when values share the same location.
     python types `list` and `dict` are mutable  
+    e.g.
+```python
+x = [1, 2, 'a']
+y = x
+
+y[2] = 3
+```
+    ![[Mutability.excalidraw]]
