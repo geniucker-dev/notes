@@ -5,4 +5,4 @@
 - We can also represent equations using symbols from the library `sympy` (later lectures).
 ## How to quantify who is more efficient?
 ***`timeit`***
-
+- not in jupyter: 
