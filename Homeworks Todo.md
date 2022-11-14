@@ -13,7 +13,6 @@
 - [ ] Prelab (@2022-11-24 12:00)
 
 ## RHET
-- [ ] HM5 - Presentation (@2022-11-15 8:00)
 
 ## PS
 - [x] an article | 11/11 Fir.
