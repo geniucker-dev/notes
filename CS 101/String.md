@@ -17,3 +17,25 @@
 - `str.isalnum()`  
 - `str.islower()`  
 - `str.isupper()`  
+
+## printf-style String Formatting
+[doc](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)
+Conversion | Meaning
+---|---
+`d` | Signed integer decimal.
+`i` | Signed integer decimal.
+`o` | Signed octal value.
+`u` | Obsolete type – it is identical to `d`.
+`x` | Signed hexadecimal (lowercase).
+`X` | Signed hexadecimal (uppercase).
+`e` | Floating point exponential format (lowercase).
+`E` | Floating point exponential format (uppercase).
+`f` | Floating point decimal format.
+`F` | Floating point decimal format.
+`g` | Floating point format. Uses lowercase exponential format if exponent is less than -4 or not less than precision, decimal format otherwise.
+`G` | Floating point format. Uses uppercase exponential format if exponent is less than -4 or not less than precision, decimal format otherwise.
+`c` | Single character (accepts integer or single character string).
+`r` | String (converts any Python object using [`repr()`](https://docs.python.org/3/library/functions.html#repr "repr")).
+`s` | String (converts any Python object using [`str()`](https://docs.python.org/3/library/stdtypes.html#str "str")).
+`a` | String (converts any Python object using [`ascii()`](https://docs.python.org/3/library/functions.html#ascii "ascii")).
+`%` | No argument is converted, results in a character in the result.`%`
