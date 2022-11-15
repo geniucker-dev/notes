@@ -1,5 +1,6 @@
 ## methods
-- `dict[key]` or `dict.get(key)`  
+- `dict[key]`
+- `dict.get(key,value`
 - `dict.items()`
 - `dict.keys()`
 - `dict.values`
