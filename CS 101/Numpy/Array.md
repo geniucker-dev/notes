@@ -8,7 +8,9 @@ import numpy as np
     `object` can be an array like object like `list`, or can be a scalar. If it's a scalar, it will return a 0-dimensional array. The shape will be `()`, which will be detailed later.  
 - `np.zeros(shape, dtype=float)`: return a new array of given shape and type, filled with zeros. The default of `dtype` is `np.float64`  
 - `np.ones(shape, dtype=float)`: similar to `np.zeros()` but filled with ones
-- `np.eye(N, M=None, dtype=float)`: similar to `np.zeros()` but the 
+- `np.eye(N, M=None, dtype=float)`: return a 2-D array with ones on the diagonal and zeros elsewhere.
+    `N`: number of rows  
+    `M`: numbers of columns. If None, defaults to `N`
 
 ### Property, methods and operators
 - `ndarray[row][col]` or `ndarray[row, col]`  
