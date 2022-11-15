@@ -1,6 +1,8 @@
+[doc](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range)
 ## list
 methods or operators:
-- `list[i:j]`
-- `list[i:j:k]`
+- `list[i:j]`: slice of s from `i` to `j`, `i` included, `j` not included
+- `list[i:j:k]`: slice of `s` from `i` to `j` with step `k`, `i` included, `j` not included
 - `list.append()`
 - `list.extend()`
+- `list.copy()`
