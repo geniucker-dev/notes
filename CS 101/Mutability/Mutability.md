@@ -20,8 +20,8 @@
     ```
     ![[Mutability.excalidraw]]
 
-> Aliasing occurs when **one memory location has two names**.
-> ***Aliasing causes mutable types to behave unexpectedly!***
+    > Aliasing occurs when **one memory location has two names**.
+    > ***Aliasing causes mutable types to behave unexpectedly!***
 
 As for `list`, if you want to avoid the unexpected behavior, you can use a copy of it.  
 e.g.  

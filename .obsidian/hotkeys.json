@@ -23,5 +23,13 @@
       ],
       "key": "E"
     }
+  ],
+  "markdown:toggle-preview": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
   ]
 }
