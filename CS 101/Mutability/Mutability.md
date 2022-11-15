@@ -23,4 +23,10 @@
 > Aliasing occurs when **one memory location has two names**.
 > ***Aliasing causes mutable types to behave unexpectedly!***
 
+As for `list`, if you want to avoid the unexpected behavior, you can use a copy of it.  
+e.g.  
+```python
+a = [1, 2, 3]
+b = a[:]  ## or b = a.copy()
+```
 # ***Don't Forget `dict` and `list` are mutable while reading codes!!!***
