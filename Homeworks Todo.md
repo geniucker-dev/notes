@@ -13,6 +13,9 @@
 - [ ] Prelab (@2022-11-24 12:00)
 
 ## RHET
+- [ ] Citation Quiz (@2022-11-22 8:00)
+- [ ] P.I.E. Blog--Judging an Article (@2022-11-22 8:00)
+- [ ] Movie Discussion
 
 ## PS
 - [x] an article | 11/11 Fir.
