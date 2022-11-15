@@ -43,3 +43,4 @@ import numpy as np
     [[0 2 1]
      [2 0 1]]
     ```
+- `ndarray.max
