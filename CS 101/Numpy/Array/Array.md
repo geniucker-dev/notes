@@ -47,4 +47,5 @@ import numpy as np
 - `ndarray.min(axis=None)`: similar to `ndarray.max()`  
 - `ndarray.mean(axis=None)`: similar to `ndarray.max()`  
 
-### linspace
+### `linspace`
+`np.linspace(start, stop, num=50, endpoint=True, `
