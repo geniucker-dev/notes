@@ -27,4 +27,4 @@ import numpy as np
     print(x * x)
     ```
     will be `array([[1, 4], [9, 16]])`
-    
+- `ndarray.tolist()`: convert `ndarray` to a python `list`
