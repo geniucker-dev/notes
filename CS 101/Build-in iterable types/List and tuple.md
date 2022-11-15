@@ -4,5 +4,5 @@ methods or operators:
 - `list[i:j]`: slice of s from `i` to `j`, `i` included, `j` not included
 - `list[i:j:k]`: slice of `s` from `i` to `j` with step `k`, `i` included, `j` not included
 - `list.append()`
-- `list.extend()`
+- `list.extend()`: equals to `list +=`
 - `list.copy()`
