@@ -11,17 +11,19 @@
 ### File input
 #### 2 Ways to open a file
 1. 
-```python
-myFile = open('word.txt')
-...
-myFile.close()
-```
-2. 
-```python
-with open('word.txt') as myFile:
+    ```python
+    myFile = open('word.txt')
     ...
-```
+    myFile.close()
+    ```
+2. 
+    ```python
+    with open('word.txt') as myFile:
+        ...
+    ```
+
 `2.` is better
+
 #### 4 methods to read a files
 1. `read()`  
 2. `readlines()`  
