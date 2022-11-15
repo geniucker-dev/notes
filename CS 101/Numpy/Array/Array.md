@@ -28,3 +28,6 @@ import numpy as np
     ```
     will be `array([[1, 4], [9, 16]])`
 - `ndarray.tolist()`: convert `ndarray` to a python `list`
+- `ndarray.sort(axis=-1)`: it will change the value of `ndarray` and won't return  
+    `axis` is axis along which to sort. Default is -1, which means sort along the last axis.  
+    e.g.
