@@ -10,4 +10,3 @@ import numpy as np
 ## ??
 - `np.random.choice`
 - `np.random.shuffle`
-`input(str)` which will return the string you inpu
