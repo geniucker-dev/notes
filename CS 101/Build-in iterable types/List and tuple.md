@@ -6,3 +6,6 @@ methods or operators:
 - `list.append()`
 - `list.extend()`: equals to `list +=`
 - `list.copy()`
+- `list.sort(myList, key=None, reverse=Flase)`
+
+## tuple
