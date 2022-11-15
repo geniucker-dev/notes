@@ -12,7 +12,7 @@ import numpy as np
     `N`: number of rows  
     `M`: numbers of columns. If None, defaults to `N`
 
-### Property, methods and operators
+### Property, methods and operators of ndarray
 - `ndarray[row][col]` or `ndarray[row, col]`  
 - `ndarray.shape` or `np.shape(ndarray)`:  
     1-D array: `np.array([4.5, 6.0, 1.2, 5.4]).shape` => `(4,)`  
@@ -46,3 +46,5 @@ import numpy as np
 - `ndarray.max(axis=None)`: return the maximum along a given axis. If `None`, return the max of the whole array  
 - `ndarray.min(axis=None)`: similar to `ndarray.max()`  
 - `ndarray.mean(axis=None)`: similar to `ndarray.max()`  
+
+### linspace
