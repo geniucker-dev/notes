@@ -14,6 +14,7 @@ import numpy as np
     `M`: numbers of columns. If None, defaults to `N`
 
 ### Property, methods and operators of ndarray
+[doc](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html)
 - `ndarray[row][col]` or `ndarray[row, col]`  
 - `ndarray.shape` or `np.shape(ndarray)`:  
     1-D array: `np.array([4.5, 6.0, 1.2, 5.4]).shape` => `(4,)`  
