@@ -15,7 +15,10 @@
 ## RHET
 - [ ] Citation Quiz (@2022-11-22 8:00)
 - [ ] P.I.E. Blog--Judging an Article (@2022-11-22 8:00)
-- [ ] Movie Discussion
+- [x] Movie Discussion ✅ 2022-11-16
+- [ ] Journal 1 (@2022-11-19 22:00)
+- [ ] Journal 2 (@2022-11-19 22:00)
+- [ ] Writing Project 3: Talk of the Town? U3W9 (@2022-12-13 8:00)
 
 ## PS
 - [x] an article | 11/11 Fir.

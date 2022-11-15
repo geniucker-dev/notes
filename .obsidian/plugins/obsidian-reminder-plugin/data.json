@@ -8,9 +8,19 @@
         "rowNumber": 7
       },
       {
+        "title": "Journal 1",
+        "time": "2022-11-19 22:00",
+        "rowNumber": 18
+      },
+      {
+        "title": "Journal 2",
+        "time": "2022-11-19 22:00",
+        "rowNumber": 19
+      },
+      {
         "title": "Peer Review Form",
         "time": "2022-11-21 23:59",
-        "rowNumber": 26
+        "rowNumber": 29
       },
       {
         "title": "Citation Quiz",
@@ -35,7 +45,12 @@
       {
         "title": "HM5 - Presentation",
         "time": "2022-11-26 23:59",
-        "rowNumber": 25
+        "rowNumber": 28
+      },
+      {
+        "title": "Writing Project 3: Talk of the Town? U3W9",
+        "time": "2022-12-13 08:00",
+        "rowNumber": 20
       }
     ]
   },
