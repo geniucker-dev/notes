@@ -23,5 +23,7 @@
 > Aliasing occurs when **one memory location has two names**.
 > ***Aliasing causes mutable types to behave unexpectedly!***
 
-## ### `printf`-style String Formatting
+## ### printf-style String Formatting
+[doc](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)
+
 # ***Don't Forget `dict` and `list` are mutable while reading codes!!!***
