@@ -1,4 +1,4 @@
-- `zip()`
+ `zip()`
     [doc](https://docs.python.org/3/library/functions.html#zip)
     ```python
     a = [1, 2, 3]
