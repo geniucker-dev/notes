@@ -9,3 +9,4 @@ methods or operators:
 - `list.sort(myList, key=None, reverse=Flase)`
 
 ## tuple
+The immutable analogue of a list is a tuple.  
