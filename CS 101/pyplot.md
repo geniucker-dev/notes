@@ -18,5 +18,6 @@ plot(x, y, 'go--', linewidth=2, markersize=12)
 plot(x, y, color='green', marker='o', linestyle='dashed',
      linewidth=2, markersize=12)
 ```
-- linestyle
+- linestyle:
+    
 
