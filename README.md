@@ -1,0 +1,1 @@
+It's a repo to sync my notes written by obsidian. If you want to watch, it's totally OK but something like pictures will be missing.
