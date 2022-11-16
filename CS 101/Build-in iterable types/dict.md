@@ -1,4 +1,4 @@
-## 
+## Notice!!!
 > `a = {'a': 1, 'b':1, 'a': 2}`
 > the result of a will be `{'a': 2, 'b': 1}`
 ## methods
