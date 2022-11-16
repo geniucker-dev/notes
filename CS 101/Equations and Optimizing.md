@@ -65,3 +65,8 @@ It will print:
 If you want to get the optimized `x`, you can use `result.x`, others are similar.
 ### Finding maxima of y
 You can find the minima of $-y$
+
+## Brute-Force Optimization
+Two useful functions from the `itertools` module:
+- `combinations`: can provide all subsets of size n.  
+- `product`: can replace nested for loops.  
