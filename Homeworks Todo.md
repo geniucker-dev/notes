@@ -4,8 +4,9 @@
 ## CEE
 
 ## Math
-- [ ] homework
-- [ ] Homework 16 (@2022-11-17 23:59)
+- [x] homework 15 ✅ 2022-11-16
+- [x] Homework 16 (@2022-11-17 23:59) ✅ 2022-11-16
+- [ ] Homework 17 (@2022-11-20 23:59)
 
 ## Chemistry
 - [x] Worksheet (@2022-11-15 18:00)
