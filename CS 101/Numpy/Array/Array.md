@@ -16,7 +16,17 @@ import numpy as np
 ### Property, methods and operators of ndarray
 [doc](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html)
 - `ndarray[row][col]` or `ndarray[row, col]`  
-- e.g. `ndarray[[0,2],:]`: there's something strange
+- some strange usages of slice  
+    e.g.  
+    ```python
+    a = np.array([[1, 2, 3],
+                  [4, 5, 6],
+                  [7, 8, 9]])
+    a[0:100, 0]   # 1 notice 100 is out of index but it's valid
+    a[[0, 2], :]  # 2
+    a[[0, 2]]     # 3 same as # 2
+    ```
+    the code above is valid
 - `ndarray.shape` or `np.shape(ndarray)`:  
     1-D array: `np.array([4.5, 6.0, 1.2, 5.4]).shape` => `(4,)`  
     2-D array: `np.array([[4.5, 6.0, 1.2, 5.4]]).shape` => `(1, 4)`  
