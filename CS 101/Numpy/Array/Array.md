@@ -16,6 +16,7 @@ import numpy as np
 ### Property, methods and operators of ndarray
 [doc](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html)
 - `ndarray[row][col]` or `ndarray[row, col]`  
+- e.g. `ndarray[[0,2],:]`: there's something strange
 - `ndarray.shape` or `np.shape(ndarray)`:  
     1-D array: `np.array([4.5, 6.0, 1.2, 5.4]).shape` => `(4,)`  
     2-D array: `np.array([[4.5, 6.0, 1.2, 5.4]]).shape` => `(1, 4)`  
