@@ -20,6 +20,7 @@
 
 ## printf-style String Formatting
 [doc](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)
+
 Conversion | Meaning
 ---|---
 `d` | Signed integer decimal.
