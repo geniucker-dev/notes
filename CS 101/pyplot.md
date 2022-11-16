@@ -7,3 +7,7 @@ import matplotlib.pyplot as plt
 3. Show plot.
 
 ## `plt.plot()`
+```python
+plot([x], y, [fmt])
+plot([x], y, [fmt], [x2], y2, [fmt2], ...)
+```
