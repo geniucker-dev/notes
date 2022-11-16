@@ -48,7 +48,7 @@ import numpy as np
 - `ndarray.max(axis=None)`: return the maximum along a given axis. If `None`, return the max of the whole array  
 - `ndarray.min(axis=None)`: similar to `ndarray.max()`  
 - `ndarray.mean(axis=None)`: similar to `ndarray.max()`  
-- `ndarray.sum(axis)`
+- `ndarray.sum(axis=None)`: `True` can be considered as `1` and `False` as `0`  
 
 ### `linspace`
 [doc](https://numpy.org/doc/stable/reference/generated/numpy.linspace.html)
