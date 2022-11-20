@@ -1,66 +1,6 @@
 {
   "scanned": true,
-  "reminders": {
-    "Homeworks Todo.md": [
-      {
-        "title": "Chapter 5",
-        "time": "2022-11-24 23:05",
-        "rowNumber": 12
-      },
-      {
-        "title": "Postlab",
-        "time": "2022-11-24 12:00",
-        "rowNumber": 13
-      },
-      {
-        "title": "Prelab",
-        "time": "2022-11-24 12:00",
-        "rowNumber": 14
-      },
-      {
-        "title": "P.I.E. Blog--Judging an Article",
-        "time": "2022-11-22 08:00",
-        "rowNumber": 18
-      },
-      {
-        "title": "Journal 1",
-        "time": "2022-11-19 22:00",
-        "rowNumber": 20
-      },
-      {
-        "title": "Journal 2",
-        "time": "2022-11-19 22:00",
-        "rowNumber": 21
-      },
-      {
-        "title": "WP3 draft",
-        "time": "2022-12-02 17:00",
-        "rowNumber": 22
-      },
-      {
-        "title": "Writing Project 3: Talk of the Town? U3W9",
-        "time": "2022-12-13 08:00",
-        "rowNumber": 23
-      },
-      {
-        "title": "HM5 - Presentation",
-        "time": "2022-11-26 23:59",
-        "rowNumber": 36
-      },
-      {
-        "title": "Peer Review Form",
-        "time": "2022-11-21 23:59",
-        "rowNumber": 37
-      }
-    ],
-    "xiaoChao.md": [
-      {
-        "title": "hhh",
-        "time": "2022-11-18",
-        "rowNumber": 2
-      }
-    ]
-  },
+  "reminders": {},
   "debug": false,
   "settings": {
     "reminderTime": "09:00",
