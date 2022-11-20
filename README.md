@@ -1,1 +1,2 @@
-It's a repo to sync my notes written by obsidian. If you want to watch, it's totally OK but something like pictures will be missing.
+It's a repo to sync my notes written by obsidian. If you want to watch, it's totally OK but something like pictures will be missing. If you want the full version you can contact me or use obsidian.  
+**If you find something wrong or feel confused about something, plz tell me.**  
