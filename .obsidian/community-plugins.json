@@ -2,12 +2,12 @@
   "obsidian-vimrc-support",
   "obsidian-excalidraw-plugin",
   "vim-im-select",
-  "obsidian-reminder-plugin",
   "better-word-count",
   "obsidian-tasks-plugin",
   "obsidian-emoji-toolbar",
   "obsidian-memos",
   "calendar",
   "obsidian-git",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-reminder-plugin"
 ]
