@@ -102,6 +102,21 @@ Steps:
 4. If this improves, keep it and repeat C.  
 5. If no improvement is possible, terminate.
 ### Random sampling
-**S**trategy: Choose a random candidate (sometimes within a constrained space).  
-**A**nalogy: Picking random heights and accepting the tallest as the highest.  
-**P**itfall: Without good constraints, missing the optimum value.  
+- **S**trategy: Choose a random candidate (sometimes within a constrained space).  
+- **A**nalogy: Picking random heights and accepting the tallest as the highest.  
+- **P**itfall: Without good constraints, missing the optimum value.  
+> Anyhow choose a point from many possible solutions, calculate the resulting figure of merit. Compare with the other points to see if it is the best solution. No path is created unlike the case of hill-climbing.
+### Random walk
+Also uses random numbers, but:  
+- **S**trategy: Start from a point. Choose a new candidate from its neighbors **at random**, and **possibly** accepting the solution if worse.  
+- **A**nalogy: Choose random steps near a hill (not always upwards), and **maybe take** the step even if it is worse.  
+- **P**itfall: Reach the top slowly, can still miss best candidate solution. ***BUT: has a way to avoid getting stuck in a local optima.***  
+> Create a path but each step might not be the always closer to the goal
+
+Steps:  
+1. Create a formula to calculate the **figure of merit**, f. Something that can be used to compare.  
+2. Select a starting **guess**, $x_0$.  
+3. Change a part of the **guess**.  
+4. **If this improves, keep it and cycle.**  
+5. If this **does not improve, sometimes keep it anyway**.  
+6. When number of trials has been reached, terminate.
