@@ -66,3 +66,4 @@ import numpy as np
 `np.linspace(start, stop, num=50, endpoint=True)`
 
 ### Comparing numpy arrays
+`ndarray.all()`: Returns True if all elements evaluate to True, similar to `np.all(a)` (`a` is array-like )
