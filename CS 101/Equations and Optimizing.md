@@ -102,3 +102,6 @@ Steps:
 4. If this improves, keep it and repeat C.  
 5. If no improvement is possible, terminate.
 ### Random sampling
+**S**trategy: Choose a random candidate (sometimes within a constrained space).  
+**A**nalogy: Picking random heights and accepting the tallest as the highest.  
+**P**itfall: Without good constraints, missing the optimum value.  
