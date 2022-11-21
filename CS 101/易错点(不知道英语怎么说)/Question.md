@@ -4,4 +4,4 @@
     x.strip()
     print(len(x))
         ```
-  
+2. 
