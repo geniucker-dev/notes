@@ -90,3 +90,5 @@ Two useful functions from the `itertools` module:
     >>> list(product(range(2), 2))  # same as list(product(range(2), range(2)))
     [(0, 0), (0, 1), (1, 0), (1, 1)]
     ```
+## Heuristic optimization
+Heuristic algorithms don’t guarantee the ‘best’ solution, but are often adequate (and the only choice!)\*.
