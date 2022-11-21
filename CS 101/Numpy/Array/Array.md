@@ -67,4 +67,4 @@ import numpy as np
 
 ### Comparing numpy arrays
 - `ndarray.all()`: Returns True if all elements evaluate to True, similar to `np.all(a)` (`a` is array-like object)  
-- `ndarray.any()`
+- `ndarray.any()`: Returns True if any of the elements of _a_ evaluate to True.  
