@@ -120,3 +120,5 @@ Steps:
 4. **If this improves, keep it and cycle.**  
 5. If this **does not improve, sometimes keep it anyway**.  
 6. When number of trials has been reached, terminate.
+
+Conclusion of Heuristic optimization:
