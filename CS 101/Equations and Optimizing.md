@@ -68,7 +68,8 @@ You can find the minima of $-y$
 
 ## Brute-Force Optimization
 Two useful functions from the `itertools` module:
-- `combinations`: can provide all subsets of size n.  
+- `itertools.combinations(iterable, r)`: can provide all subsets of size n.  
+    [doc](https://docs.python.org/3/library/itertools.html#itertools.combinations)
     ```python
     >>> list(combinations([1,2,3],0))
     [()]
@@ -81,8 +82,11 @@ Two useful functions from the `itertools` module:
     >>> list(combinations([1,2,3],4))
     []
     ```
-- `product`: can replace nested for loops.  
+- `itertools.product(*iterables, repeat=1)`: can replace nested for loops.  
+    [doc](https://docs.python.org/3/library/itertools.html#itertools.product)
     ```python
     >>> list(product(range(2),range(3)))
     [(0, 0), (0, 1), (0, 2), (1, 0), (1, 1), (1, 2)]
+    >>> list(product(range(2), 2))  # same as list(product(range(2), range(2)))
+    [(0, 0), (0, 1), (1, 0), (1, 1)]
     ```
