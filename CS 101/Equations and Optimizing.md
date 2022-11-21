@@ -90,6 +90,7 @@ Two useful functions from the `itertools` module:
     >>> list(product(range(2), 2))  # same as list(product(range(2), range(2)))
     [(0, 0), (0, 1), (1, 0), (1, 1)]
     ```
+
 ## Heuristic optimization
 Heuristic algorithms don’t guarantee the ‘best’ solution, but are often adequate (and the only choice!)\*.
 > Figure of merit: A figure of merit is to classify how good the solutions are. A figure of merit is normally a value to classify candidate solutions by how good they are. Some textbooks also define figure of merit as a function/equation. It is like exam02, the exam mark is the figure of merit you use to see if you are a good, very good, very very good …. very very very x 1000 good student.  
@@ -100,3 +101,4 @@ Steps:
 3. Change a part of the **guess**.  
 4. If this improves, keep it and repeat C.  
 5. If no improvement is possible, terminate.
+### Random sampling
