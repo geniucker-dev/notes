@@ -112,7 +112,6 @@ Also uses random numbers, but:
 - **A**nalogy: Choose random steps near a hill (not always upwards), and **maybe take** the step even if it is worse.  
 - **P**itfall: Reach the top slowly, can still miss best candidate solution. ***BUT: has a way to avoid getting stuck in a local optima.***  
 > Create a path but each step might not be the always closer to the goal
-
 Steps:  
 1. Create a formula to calculate the **figure of merit**, f. Something that can be used to compare.  
 2. Select a starting **guess**, $x_0$.  
