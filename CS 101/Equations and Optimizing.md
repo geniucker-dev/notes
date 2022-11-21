@@ -92,3 +92,11 @@ Two useful functions from the `itertools` module:
     ```
 ## Heuristic optimization
 Heuristic algorithms don’t guarantee the ‘best’ solution, but are often adequate (and the only choice!)\*.
+> Figure of merit: A figure of merit is to classify how good the solutions are. A figure of merit is normally a value to classify candidate solutions by how good they are. Some textbooks also define figure of merit as a function/equation. It is like exam02, the exam mark is the figure of merit you use to see if you are a good, very good, very very good …. very very very x 1000 good student.  
+### Hill-climbing algorithm
+Steps:  
+1. Create a formula to calculate the **figure of merit**, f. Something that can be used to compare.  
+2. Select a starting **guess**, $x_0$.  
+3. Change a part of the **guess**.  
+4. If this improves, keep it and repeat C.  
+5. If no improvement is possible, terminate.
