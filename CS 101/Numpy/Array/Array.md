@@ -44,7 +44,7 @@ import numpy as np
 - `ndarray.sort(axis=-1)`: it will change the value of `ndarray` and won't return  
     `axis` is axis along which to sort. Default is `-1`, which means sort along the last axis.  
     e.g.
-    ![[Array.excalidraw]]
+    ![[Array.excalidraw|0%]]
 - `ndarray.argsort(axis=-1)`: returns the indices that would sort this array. `axis` is the same as that in `ndarray.sort()`  
     e.g.
     ```python
