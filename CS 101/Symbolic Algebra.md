@@ -63,8 +63,13 @@ sympy.expand((sympy.cos(x)+sympy.sin(x))**2)
 ```python
 sympy.plotting.plot(x**2)
 sympy.plotting.plot(x**2, (x, -2, 2))  # this limits the -2<=x<=2
+
 ```
 ### 3-D
 ```python
 sympy.plotting.plot3d(sympy.cos(x) * sympy.sin(y))
+```
+parametric line or surface (optional)
+```pythonj
+sympy.plot3d_parametric_surface(x,y,z)
 ```
