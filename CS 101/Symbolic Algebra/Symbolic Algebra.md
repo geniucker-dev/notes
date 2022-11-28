@@ -42,6 +42,10 @@ z = sy.solve((eq1, eq2), (x, y))
 ```
 the value of `z`: `{x: 1, y: 5}`
 
+## Complex number
+- `sympy.I` is `sqrt(-1)` is `j` in python’s complex number
+- `sympy.re(xxxx)`
+- `sympy.im(xxxx)`
 ## Polynomials and expressions
 - `sympy.expand((x+1)*(x-1))`: `x**2 - 1`
 - `sympy.factor(x**2 + 4*x + 4)`: `(x+2)**2`
