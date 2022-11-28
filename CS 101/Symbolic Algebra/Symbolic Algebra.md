@@ -63,8 +63,9 @@ sympy.expand((sympy.cos(x)+sympy.sin(x))**2)
 ```python
 sympy.plotting.plot(x**2)
 sympy.plotting.plot(x**2, (x, -2, 2))  # this limits the -2<=x<=2
-
+plot( (sin(x),(x, -2*pi, 2*pi)),(cos(x), (x, -pi, pi)), line_color='red', title='SymPy plot example')  # 
 ```
+![[three_dimensional_plot.jpg|300]]
 ### 3-D
 ```python
 sympy.plotting.plot3d(sympy.cos(x) * sympy.sin(y))
