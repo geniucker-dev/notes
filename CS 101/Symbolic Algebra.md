@@ -7,15 +7,16 @@ import sympy as sy
 Steps:
 Define variable: `x = sy.S('x')  # or sy.Symbol('x')`  
 
-### Solving equation analytically
-#### a
+## Solving equation analytically
+### single equation
 ```python
 a, b, c, x = sympy.S('a, b, c, x')
 eqn = a*x**2 + b*x + c
 y = sympy.solve(eqn, x)
 print(y)
+# [(-b - sqrt(-4*a*c + b**2))/(2*a), (-b + sqrt(-4*a*c + b**2))/(2*a)]
 ```
-- The answer is stored in a container data type so the output will be `[(-b - sqrt(-4*a*c + b**2))/(2*a), (-b + sqrt(-4*a*c + b**2))/(2*a)]`  
+- The answer is stored in a container data type
 - To get value of `y` for `a=1, b=2, c=1`  
     use:
     ```python
@@ -27,10 +28,11 @@ print(y)
 
 e.g.  
 ```python
-print(sympy.solve(a*x**5 + b*x + c, x))  # []
+print(sympy.solve(a*x**5 + b*x + c, x))
+# []
 ```
 
-#### b
+### equation set
 ```python
 import sympy as sy
 x, y = sy.S('x, y')
