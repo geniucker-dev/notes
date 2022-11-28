@@ -56,3 +56,15 @@ sympy.simplify(math.sin(x)+math.cos(x))
 sympy.expand((sympy.cos(x)+sympy.sin(x))**2)
 # sin(x)**2 + 2*sin(x)*cos(x) + cos(x)**2
 ```
+
+## Plotting
+### 2-D
+`Sympy` can also plot expressions
+```python
+sympy.plotting.plot(x**2)
+sympy.plotting.plot(x**2, (x, -2, 2))  # this limits the -2<=x<=2
+```
+### 3-D
+```python
+sympy.plotting.plot3d(sympy.cos(x) * sympy.sin(y))
+```
