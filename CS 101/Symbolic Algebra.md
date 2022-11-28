@@ -39,3 +39,4 @@ the value of `z`: `{x: 1, y: 5}`
 - `sympy.expand((x+1)*(x-1))`: `x**2 - 1`
 - `sympy.factor(x**2 + 4*x + 4)`: `(x+2)**2`
 - `sympy.simplify(eqn)`: simplify the equation
+- `sympy.together(b/c + x/a)`: `(a*b + c*x)/(a*c)`
