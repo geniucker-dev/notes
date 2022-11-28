@@ -63,7 +63,7 @@ sympy.expand((sympy.cos(x)+sympy.sin(x))**2)
 ```python
 sympy.plotting.plot(x**2)
 sympy.plotting.plot(x**2, (x, -2, 2))  # this limits the -2<=x<=2
-plot( (sin(x),(x, -2*pi, 2*pi)),(cos(x), (x, -pi, pi)), line_color='red', title='SymPy plot example')  # 
+sympy.plotting.plot( (sin(x),(x, -2*pi, 2*pi)),(cos(x), (x, -pi, pi)), line_color='red', title='SymPy plot example')  # multiple lines
 ```
 ![[three_dimensional_plot.jpg|300]]
 ### 3-D
@@ -71,6 +71,6 @@ plot( (sin(x),(x, -2*pi, 2*pi)),(cos(x), (x, -pi, pi)), line_color='red', title=
 sympy.plotting.plot3d(sympy.cos(x) * sympy.sin(y))
 ```
 parametric line or surface (optional)
-```pythonj
-sympy.plot3d_parametric_line(expr_x, expr_y, expr_z, range)
+```python
+sympy.plotting.plot3d_parametric_line(expr_x, expr_y, expr_z, range)
 ```
