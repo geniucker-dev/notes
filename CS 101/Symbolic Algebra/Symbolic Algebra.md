@@ -72,5 +72,5 @@ sympy.plotting.plot3d(sympy.cos(x) * sympy.sin(y))
 ```
 parametric line or surface (optional)
 ```pythonj
-sympy.plot3d_parametric_surface(x,y,z)
+sympy.plot3d_parametric_line(expr_x, expr_y, expr_z, range)
 ```
