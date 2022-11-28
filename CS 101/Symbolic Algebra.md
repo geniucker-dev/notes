@@ -40,3 +40,12 @@ the value of `z`: `{x: 1, y: 5}`
 - `sympy.factor(x**2 + 4*x + 4)`: `(x+2)**2`
 - `sympy.simplify(eqn)`: simplify the equation
 - `sympy.together(b/c + x/a)`: `(a*b + c*x)/(a*c)`
+**attention**:
+```python
+>>> sympy.simplify(sympy.sin(x)**2 + sympy.cos(x)**2)
+1
+>>> sympy.simplify(math.sin(x)+math.cos(x))
+error
+>>> sympy.expand((sympy.cos(x)+sympy.sin(x))**2)
+sin(x)**2 + 2*sin(x)*cos(x) + cos(x)**2
+```
