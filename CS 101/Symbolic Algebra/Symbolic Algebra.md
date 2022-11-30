@@ -90,3 +90,8 @@ sympy.plotting.plot3d_parametric_surface(expr_x, expr_y, expr_z, range)
 ```
 
 ## Calculus
+### symbolic differentiation
+```python
+x, n = sympy.S('x, n')
+sympy.diff(x**n, x, 1)
+```
