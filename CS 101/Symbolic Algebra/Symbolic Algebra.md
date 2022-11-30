@@ -54,6 +54,7 @@ the value of `z`: `{x: 1, y: 5}`
 - ...
 
 ## Polynomials and expressions
+- `expr.subs(a, 1)`: return the result that substitutes a with 1
 - `sympy.expand((x+1)*(x-1))`: `x**2 - 1`
 - `sympy.factor(x**2 + 4*x + 4)`: `(x + 2)**2`
 - `sympy.simplify(eqn)`: simplify the equation
