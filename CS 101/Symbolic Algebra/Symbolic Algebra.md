@@ -131,3 +131,6 @@ sympy.series(sympy.cos(x), x, 0, 4).removeO()
 sympy.series(sympy.cos(x), x, 0, 5).removeO()
 x**4/24 - x**2/2 + 1
 ```
+
+## `lambdify`
+`lambdify` can turn a `sympy` expression into a lambda function
