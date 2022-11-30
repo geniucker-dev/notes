@@ -58,7 +58,8 @@ the value of `z`: `{x: 1, y: 5}`
 - `sympy.factor(x**2 + 4*x + 4)`: `(x + 2)**2`
 - `sympy.simplify(eqn)`: simplify the equation
 - `sympy.together(b/c + x/a)`: `(a*b + c*x)/(a*c)`
-- `sympy.apart((a*x)/((a-2)*b),a)`: ``
+- `sympy.apart((a*x)/((a-2)*b),a)`: `x/b + 2*x/(b*(a - 2))`
+    `sympy.apart((a*x)/((a-2)*b),b)`: `a*x/(b*(a - 2))`
 **attention**:
 ```python
 sympy.simplify(sympy.sin(x)**2 + sympy.cos(x)**2)
