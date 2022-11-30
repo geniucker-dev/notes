@@ -86,3 +86,5 @@ parametric line or surface (optional)
 sympy.plotting.plot3d_parametric_line(expr_x, expr_y, expr_z, range)
 sympy.plotting.plot3d_parametric_surface(expr_x, expr_y, expr_z, range)
 ```
+
+## Calculus
