@@ -100,5 +100,14 @@ sympy.diff(x**n, x, 1)  # equals to sympy.diff(x**n, x)
 #### Indefinite integration
 `sympy.integrate()` does not show the integration constant, `C`  
 e.g.
-#### Definite integration
 `sympy.integrate(x**2, x)`: `x**3/3`  
+#### Definite
+e.g.
+`sympy.integrate(sympy.cos(x), (x, 0, sympy.pi/2))`: `1`
+$$\int^1_0dy\int^1_{-1}dx(sin^2x+3y)$$
+=>
+```python
+sympy.integrate(sympy.integrate(sympy.sin(x)**2 + 3*y, (x, -1, 1)), (y, 0, 1))
+```
+### Taylor series & Linearization
+####
