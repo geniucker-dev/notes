@@ -93,5 +93,6 @@ sympy.plotting.plot3d_parametric_surface(expr_x, expr_y, expr_z, range)
 ### symbolic differentiation
 ```python
 x, n = sympy.S('x, n')
-sympy.diff(x**n, x, 1)
+sympy.diff(x**n, x, 1)  # equals to sympy.diff(x**n, x)
+# 1 refers to the time you want to diff
 ```
