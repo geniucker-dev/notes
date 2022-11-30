@@ -97,6 +97,8 @@ sympy.diff(x**n, x, 1)  # equals to sympy.diff(x**n, x)
 # 1 refers to the time you want to diff
 ```
 ### Symbolic integration
+#### Indefinite integration
 `sympy.integrate()` does not show the integration constant, `C`  
 e.g.
+#### Definite integration
 `sympy.integrate(x**2, x)`: `x**3/3`  
