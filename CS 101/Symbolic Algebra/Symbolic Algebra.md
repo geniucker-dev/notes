@@ -90,9 +90,13 @@ sympy.plotting.plot3d_parametric_surface(expr_x, expr_y, expr_z, range)
 ```
 
 ## Calculus
-### symbolic differentiation
+### Symbolic differentiation
 ```python
 x, n = sympy.S('x, n')
 sympy.diff(x**n, x, 1)  # equals to sympy.diff(x**n, x)
 # 1 refers to the time you want to diff
 ```
+### Symbolic integration
+`sympy.integrate()` does not show the integration constant, `C`  
+e.g.
+`sympy.integrate(x**2, x)`: `x**3/3`  
