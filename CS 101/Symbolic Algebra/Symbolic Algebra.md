@@ -134,3 +134,14 @@ x**4/24 - x**2/2 + 1
 
 ## `lambdify`
 `lambdify` can turn a `sympy` expression into a lambda function
+`lambdify([parameters], expr)`: if there's only one parameter in expr, the first parameter in lambdify doesn't need to be a list  
+e.g.
+```python
+f = lambdify([x], x+1)
+# equals to f = lambdify(x, x+1)
+# it can be called like f(10)
+```
+```python
+f = lambdify([x, y], x+y)
+# it can be called like f(1, 2)
+```
