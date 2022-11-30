@@ -111,7 +111,7 @@ sympy.integrate(sympy.integrate(sympy.sin(x)**2 + 3*y, (x, -1, 1)), (y, 0, 1))
 ```
 ### Taylor series & Linearization
 `sympy.series(expr, x, x0=0, n=6)`
-***attention:*** `n` is the number of terms in Taylor series, not the number of terms you can see
+***attention:*** `n` is the number of terms in Taylor series, not the number of terms you can see (就是展开到泰勒的第几项)
 e.g.
 ```python
 sympy.series(1/(1-x), x, 0)
@@ -123,5 +123,10 @@ sympy.series(1/(1-x), x, 0).removeO()
 # x**5 + x**4 + x**3 + x**2 + x + 1
 ```
 ```python
-
+sympy.series(sympy.cos(x), x, 0, 3).removeO()
+# 1 - x**2/2
+sympy.series(sympy.cos(x), x, 0, 4).removeO()
+# 1 - x**2/2
+sympy.series(sympy.cos(x), x, 0, 5).removeO()
+x**4/24 - x**2/2 + 1
 ```
