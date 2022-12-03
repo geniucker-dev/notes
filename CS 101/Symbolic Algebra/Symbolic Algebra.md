@@ -109,6 +109,8 @@ $$\int^1_0dy\int^1_{-1}dx(sin^2x+3y)$$
 =>
 ```python
 sympy.integrate(sympy.integrate(sympy.sin(x)**2 + 3*y, (x, -1, 1)), (y, 0, 1))
+# or
+sympy.integrate(sympy.sin(x)**2 + 3*y, (x, -1, 1), (y, 0, 1))
 ```
 ### Taylor series & Linearization
 `sympy.series(expr, x, x0=0, n=6)`
