@@ -41,7 +41,7 @@ A = [1 2 3; 4 5 6];  % matrix
 2. **Matrix** multiplication
     `D = eye(3, 4) * ones(4, 5) * pi`
 > `.*` and `./` is for scalar mathematics or element-wise calculation  
-> `*` and `/` is for matrix operation  
+> `*` and `/` is for matrix operation. MATLAB will try matrix operation first. If cannot, then scalar calculation. If still cannot, give an error. 
 
 ### String / Char Array
 > Single quotes creates `char array`
