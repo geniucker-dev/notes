@@ -22,8 +22,15 @@ A = [1 2 3; 4 5 6];  % matrix
     A = 0:10:100  % same as the A above
     B = A(4:7)  % ends included
     ```
+- Multidimensional arrays
+   e.g.
+   ```MATLAB
+   A = [1 2 3; 4 5 6]  % 2x3 matrix
+    ``` 
+- `ones()`, `eye()`, `zeros()` are similar to those in python  
+    `ones(n)` is identical to `ones(n, n)`
 
-
+### Scalar / Array Operations
 
 ### String / Char Array
 > Single quotes creates `char array`
