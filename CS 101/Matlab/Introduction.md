@@ -74,6 +74,7 @@ C = ["HELLO";"WORLD!" ];
 both are OK.
 
 ## Loop
+#### for loop
 ```MATLAB
 for variable = range, 
     % where you create var and provide range 
@@ -90,3 +91,12 @@ end
 also
 `for i = charArray`
 there is also `linspace()`
+#### while loop
+e.g.
+```MATLAB
+i = 0;
+while i < 10
+    i = i + 1;
+    fprintf( ’The number is %i.’ , i );
+end
+```
