@@ -32,14 +32,16 @@ A = [1 2 3; 4 5 6];  % matrix
 
 ### Scalar / Array Operations
 #### Array operators
-##### Basic (Scalar) mathematics
-- `A = [1 1] + 1`  
-- `B = sin(ones(3, 3) * pi)`  
-- `C = B'`: the transpose of B
-- `A = ([1 1] + 1) ./ 2`: same as above
-- `B = sin(ones(3, 3) .* pi)`: same as above
-##### **Matrix** multiplication
-`D = eye(3, 4) * ones(4, 5) * pi`
+1. Basic (Scalar) mathematics
+    - `A = [1 1] + 1`  
+    - `B = sin(ones(3, 3) * pi)`  
+    - `C = B'`: the transpose of B
+    - `A = ([1 1] + 1) ./ 2`: same as above
+    - `B = sin(ones(3, 3) .* pi)`: same as above
+2. **Matrix** multiplication
+    `D = eye(3, 4) * ones(4, 5) * pi`
+> `.*` and `./` is for scalar mathematics or element-wise calculation  
+> `*` and `/` is for matrix operation  
 
 ### String / Char Array
 > Single quotes creates `char array`
