@@ -44,3 +44,27 @@ A = ['HELLO';'WORLD' ];
 C = ['HELLO';'WORLD!' ];  % Fail!!!
 ```
 ***the second line will fail, because the length of two elements are not the same***
+but
+```MATLAB
+A = ["HELLO";"WORLD" ];
+C = ["HELLO";"WORLD!" ];
+```
+both are OK.
+
+## Loop
+```MATLAB
+for variable = range, 
+    % where you create var and provide range 
+    one or more statements
+end
+```
+Can use continue and break as in python
+e.g.
+```MATLAB
+for i = 1:2:10  %Start:Step:End
+    fprintf( ’The number is %i.’ , i );
+end
+```
+also
+`for i = charArray`
+there is also `linspace()`
