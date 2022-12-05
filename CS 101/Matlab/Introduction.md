@@ -31,6 +31,11 @@ A = [1 2 3; 4 5 6];  % matrix
     `ones(n)` is identical to `ones(n, n)`
 
 ### Scalar / Array Operations
+#### Array operators
+##### Basic (Scalar) mathematics
+- `A = [1 1] + 1`  
+- `B = sin(ones(3, 3) * pi)`  
+- `C = B'`: the transpose of B
 
 ### String / Char Array
 > Single quotes creates `char array`
