@@ -36,6 +36,10 @@ A = [1 2 3; 4 5 6];  % matrix
 - `A = [1 1] + 1`  
 - `B = sin(ones(3, 3) * pi)`  
 - `C = B'`: the transpose of B
+- `A = ([1 1] + 1) ./ 2`: same as above
+- `B = sin(ones(3, 3) .* pi)`: same as above
+##### **Matrix** multiplication
+`D = eye(3, 4) * ones(4, 5) * pi`
 
 ### String / Char Array
 > Single quotes creates `char array`
