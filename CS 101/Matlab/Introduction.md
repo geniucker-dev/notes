@@ -33,4 +33,14 @@ s = 'I know this';
 bigS = "Different? What? Confused!";
 s(1)  % 'I'
 bigS(1)  % "Different? What? Confused!"
+bigS{1}  % 'Different? What? Confused!''
+bigS{1}(1:2)  % 'Di'
+
 ```
+> But be careful—sizes cause surprises.
+
+```MATLAB
+A = ['HELLO';'WORLD' ];
+C = ['HELLO';'WORLD!' ];
+```
+***the second line will fail, because the length of two elements are not the same***
