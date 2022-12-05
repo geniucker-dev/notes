@@ -20,4 +20,17 @@ A = [1 2 3; 4 5 6];  % matrix
     we can also use slice
     ```MATLAB
     A = 
+    ```
+
+
+
+### String / Char Array
+> Single quotes creates `char array`
+> Double quotes creates `string`
+
+```MATLAB
+s = 'I know this';
+bigS = "Different? What? Confused!";
+s(1)  % 'I'
+bigS(1)  % "Different? What? Confused!"
 ```
