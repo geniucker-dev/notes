@@ -9,3 +9,9 @@ b = [1 2 3]';  % or b = [1; 2; 3]  % column vector
 A = [1 2 3; 4 5 6];  % matrix
 ```
 > ***MATLAB start from `1` NOT `0`***
+
+- index array:
+    ```MATLAB
+    a = [1 2 3];
+    b = a(1);  % 1
+    ```
