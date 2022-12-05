@@ -19,7 +19,8 @@ A = [1 2 3; 4 5 6];  % matrix
     ```
     we can also use slice
     ```MATLAB
-    A = 
+    A = 0:10:100  % same as the A above
+    B = A(4:7)  % ends included
     ```
 
 
