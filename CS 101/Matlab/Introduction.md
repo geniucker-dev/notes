@@ -38,11 +38,13 @@ A = [1 2 3; 4 5 6];  % matrix
     - `C = B'`: the transpose of B
     - `A = ([1 1] + 1) ./ 2`: same as above
     - `B = sin(ones(3, 3) .* pi)`: same as above
-2. **Matrix** multiplication
-    `D = eye(3, 4) * ones(4, 5) * pi`
-> `.*` and `./` is for scalar mathematics or element-wise calculation  
-> `*` and `/` is for matrix operation. MATLAB will try matrix operation first. If cannot, then scalar calculation. If still cannot, give an error. 
-
+2. **Matrix** calculation
+    - `D = eye(3, 4) * ones(4, 5) * pi`
+    > `.*` and `./` is for scalar mathematics or element-wise calculation  
+    > `*` and `/` is for matrix operation. MATLAB will try matrix operation first. If cannot, then scalar calculation. If still cannot, give an error. 
+    
+    - `E = inv(A)`: the matrix inverse
+    
 ### String / Char Array
 > Single quotes creates `char array`
 > Double quotes creates `string`
