@@ -41,6 +41,6 @@ bigS{1}(1:2)  % 'Di'
 
 ```MATLAB
 A = ['HELLO';'WORLD' ];
-C = ['HELLO';'WORLD!' ];
+C = ['HELLO';'WORLD!' ];  % Fail!!!
 ```
 ***the second line will fail, because the length of two elements are not the same***
