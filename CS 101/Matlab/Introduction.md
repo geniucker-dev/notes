@@ -44,6 +44,7 @@ A = [1 2 3; 4 5 6];  % matrix
     > `*` is for matrix operation. MATLAB will try matrix operation first. If cannot, then scalar calculation. If still cannot, give an error. 
     
     - `E = inv(A)`: the matrix inverse
+        ``
     
 ### String / Char Array
 > Single quotes creates `char array`
