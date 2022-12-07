@@ -116,3 +116,6 @@ end
 > MATLAB does ***NOT*** have a `bool` data type. USE `0` or `1`
 > MATLAB will recognizes `false` and `true` as `0` and `1`, **but in data type `logical`
 
+- `<`, `>`, `<=`, `>=`, `==`, `~=`
+- `&`, `&&` means 'and'
+- `|`, `||` mean 'or'
