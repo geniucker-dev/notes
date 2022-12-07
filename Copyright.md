@@ -15,3 +15,18 @@
 - facts
 - names, titles, slogans or short phrases (could be trademark)
 - useful articles or inventions (patent)
+## What rights does an author have?
+- reproduce the work
+- distribute the work
+- create derivatives from the work
+- perform the work
+- publicly display the work
+or license any of the above to third parties
+## Who owns the copyright?
+- The author, of course.
+- Who is the author? The person or people who created the work -- except for a work made for hire (then the employer owns the work)
+**IMPORTANT TO REMEMBER:**
+> If joint authors, then each owner has an equal, undivided interest in the copyright.
+## Why worry about copyright?
+- You could get sued ...
+- Copyright is different from plagiarism. It is the law!!!
