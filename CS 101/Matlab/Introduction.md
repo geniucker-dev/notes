@@ -128,6 +128,6 @@ A(A>2)
 
 ## Random numbers
 - `rng(n)`: set the seed
-- `rand`: 
-- `randn`
-- `randi`
+- `rand(sz1, sz2,...)`: generate a matrix of size sz1 x sz2 x ... with uniform distribution between (0, 1). If there's only one parameter, same as `rand(sz1, sz1)`
+- `randn(sz1, sz2, ...)`: normal distribution with mean 0 and variance 1
+- `randi()`: random integers between [1, n]
