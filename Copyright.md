@@ -30,3 +30,8 @@ or license any of the above to third parties
 ## Why worry about copyright?
 - You could get sued ...
 - Copyright is different from plagiarism. It is the law!!!
+
+
+
+
+## Or, use creative commons!
