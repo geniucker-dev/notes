@@ -119,3 +119,15 @@ end
 - `<`, `>`, `<=`, `>=`, `==`, `~=`
 - `&`, `&&` means 'and'
 - `|`, `||` mean 'or'
+
+```MATLAB
+A = [1, 5, 1; 3, 6, 2];
+A(A>2)
+% equals to [3 5 6]'
+```
+
+## Random numbers
+- `rng(n)`: set the seed
+- `rand`: 
+- `randn`
+- `randi`
