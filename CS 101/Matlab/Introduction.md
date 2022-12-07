@@ -100,3 +100,18 @@ while i < 10
     fprintf( ’The number is %i.’ , i );
 end
 ```
+
+## If and logic
+### if/else statement
+```MATLAB
+if expr
+    ...
+elseif expr
+    ...
+else
+    ...
+end
+```
+### Logical statements
+> MATLAB does ***NOT*** have a `bool` data type. USE `0` or `1`
+> MATLAB will recognizes `false` and `true` as `0` and `1`
