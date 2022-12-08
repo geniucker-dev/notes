@@ -11,3 +11,5 @@ function [output list] = function_name(parameters)
 end
 ```
 Functions can return several values.
+You can have more than one functions in the same `.m` file 
+but only the first function can be access from outside!
