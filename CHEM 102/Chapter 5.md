@@ -9,3 +9,5 @@ $R = 8.314J/(mol\dot K)$
 $KE_{avg}=\frac32RT$ ($KE_{avg}$ is per mole)
 $u_{rms}=\sqrt{\frac{3RT}{M}}$
 
+### Real Gas
+$[P_{obs}+a(n/V)^2]\times (V-nb)=nRT$
