@@ -29,3 +29,5 @@
     - Group 8A
 - Molecular Solids
 - Ionic Solids
+### Band Model in Metals
+Also called Molecular Orbital Model. When many metal atoms interact, the gap of energy among molecular orbitals become more closely and finally form a virtual continuum of levels, called ***bands***.
