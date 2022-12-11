@@ -1,7 +1,7 @@
 ## Intermolecular forces
 -  van der Waals force
     - Dipole-dipole attraction (取向力)
-    - London Dispersion Force: instantaneous dipole ***(including induced dipole force)***
+    - London Dispersion Force: instantaneous dipole
 - Hydrogen bond
 
 ## The forces in a liquid
