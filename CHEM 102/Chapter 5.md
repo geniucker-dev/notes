@@ -6,4 +6,6 @@ $R = 0.08206 L\cdot atm/(mol\cdot K)$
 $R = 8.314J/(mol\dot K)$
 
 ### Kinetic Energy
-$KE_{avg}=\frac32RT$
+$KE_{avg}=\frac32RT$ ($KE_{avg}$ is per mole)
+$u_{rms}=\sqrt{\frac{3RT}{M}}$
+
