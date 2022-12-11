@@ -10,3 +10,4 @@
     two relevant types forces:
     - ***Cohesive forces*** (内聚力): the intermolecular forces among the molecules of the liquid
     - ***Adhesive forces*** (粘附力): the forces between the liquid molecules and their container
+- ***Viscosity*** (黏性): A measure of a liquid’s resistance to flow. Another property of liquids strongly dependent on intermolecular forces
