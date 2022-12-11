@@ -14,3 +14,4 @@
 
 ## Lattice Structure of Crystalline Solids
 - ***lattice***: 
+- ***unit cell***: the smallest repeating unit of the lattice
