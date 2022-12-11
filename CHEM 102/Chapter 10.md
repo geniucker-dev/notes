@@ -12,6 +12,13 @@
     - ***Adhesive forces*** (粘附力): the forces between the liquid molecules and their container
 - ***Viscosity*** (黏性): A measure of a liquid’s resistance to flow. Another property of liquids strongly dependent on intermolecular forces
 
-## Lattice Structure of Crystalline Solids
+## Structure of Solid
+### Lattice Structure of Crystalline Solids
 - ***lattice***: 
 - ***unit cell***: the smallest repeating unit of the lattice
+### X-ray Analysis of Solid
+***Bragg Equation***:
+$$n\lambda = 2dsin\theta$$
+记两个词：
+- in-phase: 同相的
+- out of phase: 反相的
