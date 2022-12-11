@@ -17,8 +17,15 @@
 - ***lattice***: 
 - ***unit cell***: the smallest repeating unit of the lattice
 ### X-ray Analysis of Solid
-***Bragg Equation***:
-$$n\lambda = 2dsin\theta$$
+***Bragg Equation***: $n\lambda = 2dsin\theta$
+![[1.png|400]]
 记两个词：
 - in-phase: 同相的
 - out of phase: 反相的
+### Types of Crystal
+- Atomic Solids
+    - Metallic
+    - Network
+    - Group 8A
+- Molecular Solids
+- Ionic Solids
