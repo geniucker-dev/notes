@@ -4,3 +4,6 @@
 =>***The Ideal Gas Law***: $PV=nRT$
 $R = 0.08206 L\cdot atm/(mol\cdot K)$
 $R = 8.314J/(mol\dot K)$
+
+### Kinetic Energy
+$KE_{avg}=\frac32RT$
