@@ -38,3 +38,4 @@ Also called Molecular Orbital Model. When many metal atoms interact, the gap of 
 - These materials are typically brittle and do not efficiently conduct heat or electricity.
 - a large gap between the filled and the empty orbital levels. Electrons cannot be transferred easily to the empty conduction bands.
 - Anisotropy (各向异性): graphite has very strong bonding within the layers of carbon atoms but little bonding between the layers
+### Doped silicon solid: semiconductors
