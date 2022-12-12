@@ -9,8 +9,8 @@ xstar = fminbnd( @humps,0.3,1 )
 [xstar, ystar ] = fminbnd( @humps,0.3,1 )
 figure 
 plot( x, y, xstar, ystar, 'ro' )
-xlabel( 'x' )：： 
-ylabel( ’f(x)’ ) 
+xlabel( 'x' ) 
+ylabel( 'f(x)' ) 
 grid on
 ```
 
