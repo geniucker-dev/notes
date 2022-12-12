@@ -11,7 +11,7 @@ ylabel('y values');
 ```
 
 other functions used for plotting
-- `fplot`: plot an equation
+- `fplot`: plot an equation, ***can plot both equation and parametric equation***
 - `plot3`: 3D plot
 - `fcontour`: plot contour
 - `subplot`: small plots within a plot
