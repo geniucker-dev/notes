@@ -5,6 +5,8 @@
     - like dissolves like = deviation from Raoult's law
 - Colligative properties
     $$\Delta T_b=iK_bm_{solute}$$
+    $m_{solute}$ is ***molality***  
     $$\Delta T_m=iK_fm_{solute}$$
+    $m_{solute}$ is ***molality***  
     $$\Pi=iMRT$$
-    
+    $M$ is ***molarity***  
