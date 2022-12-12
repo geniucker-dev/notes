@@ -18,7 +18,7 @@
 - ***unit cell***: the smallest repeating unit of the lattice
 ### X-ray Analysis of Solid
 ***Bragg Equation***: $n\lambda = 2dsin\theta$
-![[1.png|400]]
+![[CHEM 102/Chapter 10/Image/1.png|400]]
 记两个词：
 - in-phase: 同相的
 - out of phase: 反相的

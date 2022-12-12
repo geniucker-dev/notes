@@ -26,14 +26,16 @@ hold on;
 
 `subplot`:
 ```MATLAB
-figure (2)%create a new figure numbered 2
-f = @(x,y) sin( x ) + cos( y );
-fcontour( f ) % plot a contour plot
+figure(2)  %create a new figure numbered 2
+f = @(x, y) sin(x) + cos(y);
+fcontour(f);  % plot a contour plot
 x = linspace(0,10);
-subplot(2,1,1); % divide graph into 2 rows 1 column and use subplot 1
+subplot(2,1,1);  % divide graph into 2 rows 1 column and use subplot 1
 y1 = sin(x);
-plot(x,y1)
-subplot(2,1,2); % use subplot 2
+plot(x,y1);
+subplot(2,1,2);  % use subplot 2
 y2 = sin(5*x);
-plot(x,y2)
+plot(x,y2);
 ```
+the result is like this:
+![[CS 101/Matlab/Plot/image/1.png|400]]
