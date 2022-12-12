@@ -39,3 +39,11 @@ Also called Molecular Orbital Model. When many metal atoms interact, the gap of 
 - a large gap between the filled and the empty orbital levels. Electrons cannot be transferred easily to the empty conduction bands.
 - Anisotropy (各向异性): graphite has very strong bonding within the layers of carbon atoms but little bonding between the layers
 ### Doped silicon solid: semiconductors
+
+
+### lattice structures in crystal solids (hcp, ccp)
+Unit cell | Atoms # | Tetrahedral hole # | Octahedral hole #
+---|---|---|---
+hexagonal Closest packed (hcp) | 2 | 4 | 2
+cubic closest packed (ccp) | 4 | 8 | 4
+
