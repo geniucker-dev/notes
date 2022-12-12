@@ -25,3 +25,20 @@ $cosx=e^{-x}-4$
 f = @(X) cos(x)-exp(-x)+4;
 x = fzero(f, x0);  % finds a zero of f near x0
 ```
+in this way, you only get ***1 root*** with `x0` when using `fzero()`
+
+### dy/dx of polynomials
+```MATLAB
+polynomial = [ 1 -1 1 -1 1 -1 ];
+derivative = polyder( polynomial );
+```
+
+### integration of polynomials
+$$\int^1_0 (x^3-x)dx$$
+```MATLAB
+integrand = [ 1 0 -1 0 ];
+antiderivative = polyint( integrand );
+integral_l = polyval( antiderivative, 1 );
+integral_r = polyval( antiderivative, 0 );
+integral = integral_l - integral_r;
+```
