@@ -13,3 +13,15 @@ Thus a polynomial is a length (n + 1) array.
     w = conv(u, v);
     ```
 - `roots`: get the roots of polynomials. e.g. `roots([1 0 -4])`
+- `poly`: to get an equation from the roots you given.
+    e.g.
+    ```MATLAB
+    poly([-2 2])  % [1 0 -4]
+    ```
+
+### Find function zeros not just polynomials
+$cosx=e^{-x}-4$
+```MATLAB
+f = @(X) cos(x)-exp(-x)+4;
+x = fzero(f, x0);  % finds a zero of f near x0
+```
