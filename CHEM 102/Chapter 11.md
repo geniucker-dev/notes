@@ -8,5 +8,6 @@
     $m_{solute}$ is ***molality***  
     $$\Delta T_m=iK_fm_{solute}$$
     $m_{solute}$ is ***molality***  
+    osmotic pressure:
     $$\Pi=iMRT$$
     $M$ is ***molarity***  
