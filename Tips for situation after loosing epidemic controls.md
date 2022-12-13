@@ -9,7 +9,7 @@ If infected:
 - You ***mustn't*** take antibiotic and "莲花清瘟". The latter have strong 肝毒性, whose proof is posted on *NATURE* . You can take "泰诺", "克感敏" and so on. When you have a favor, liver function is weak, so you shouldn't eat too much complex medicine which does harm to liver.  
 - In the first trend, hyperpyrexia is general, so you should:
     - 多喝热水  
-    - 少食多餐（以蒸的煮的食品为主）  
+    - 少食多餐（以蒸的煮的食品为主，别吃油炸的辣的hhh）  
 - Generally, after 3 to 5 days, the symptom starts to ease  
 - For people of more than 65 years old with severe symptom, there is specific medicine (developed by the US). ***一般人不推荐使用***  
 
