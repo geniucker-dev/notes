@@ -12,3 +12,5 @@ If infected:
     - 少食多餐（以蒸的煮的食品为主）  
 - Generally, after 3 to 5 days, the symptom starts to ease  
 - For people of more than 65 years old with severe symptom, there is specific medicine (developed by the US). ***一般人不推荐使用***  
+
+
