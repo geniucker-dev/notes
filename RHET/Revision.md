@@ -10,3 +10,4 @@ Get some distance.
 - try to keep an objective perspective.  
 - Read the draft aloud.  
     - To get a full appreciation of the rhythm of a sentence
+
