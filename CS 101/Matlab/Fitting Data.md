@@ -5,3 +5,9 @@
 ## Understand limitations of high-order fit
 
 ## Distinguish interpolation and fitting (regression)
+
+
+
+
+## Regression/ Curve Fitting
+### Interpolation
