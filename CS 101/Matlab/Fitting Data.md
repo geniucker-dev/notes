@@ -19,5 +19,6 @@ plot(x, y, 'ro-'); %just for you to see
 x_est = 0.15;
 y_est = interp1(x, y, x_est);
 ```
+[doc](https://ww2.mathworks.cn/help/matlab/ref/interp1.html#btwp6lt-1-method)
 ### Fitting Polynomials
 `polyfit(x, y, n)`
