@@ -87,7 +87,7 @@ Two useful functions from the `itertools` module:
     ```python
     >>> list(product(range(2),range(3)))
     [(0, 0), (0, 1), (0, 2), (1, 0), (1, 1), (1, 2)]
-    >>> list(product(range(2), 2))  # same as list(product(range(2), range(2)))
+    >>> list(product(range(2), repeat=2))  # same as list(product(range(2), range(2)))
     [(0, 0), (0, 1), (1, 0), (1, 1)]
     ```
 
