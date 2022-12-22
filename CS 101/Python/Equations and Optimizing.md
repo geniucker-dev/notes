@@ -82,6 +82,7 @@ Two useful functions from the `itertools` module:
     >>> list(combinations([1,2,3],4))
     []
     ```
+- `itertools.permutations`: 组合  
 - `itertools.product(*iterables, repeat=1)`: can replace nested for loops.  
     [doc](https://docs.python.org/3/library/itertools.html#itertools.product)
     ```python
