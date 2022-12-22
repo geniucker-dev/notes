@@ -7,6 +7,7 @@ methods or operators:
 - `list.extend()`: equals to `list +=`
 - `list.copy()`
 - `list.sort(myList, key=None, reverse=Flase)`
+- `list.reverse()`: modify the list to the reverse one
 
 ## tuple
 The immutable analogue of a list is a tuple.  
