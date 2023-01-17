@@ -1,0 +1,2 @@
+- the ddl of prelecture 2 is different on canvas and prairie  
+- what time zone does the time of ddl belong
