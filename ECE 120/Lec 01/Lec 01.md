@@ -21,12 +21,15 @@ why do we build from the ground up?
 - Easier to make effective use of abstractions and to improve those abstractions.  
 - Our students have been successful based on this approach (alumni feedback).  
 
-# Read the Wiki Every Day
+## **Read the Wiki Every Day**
 <https://canvas.illinois.edu/courses/34302>
 You can find:
 - announcements from course staff  
-- course info  
-- 
+- course info and timing  
+- assignments, solutions, exams, and due dates  
+- a place for exchangeing info  
+    - ask any non-personal questions here  
+    - do not post answers  
 
 ## What to Read (and What Not to Read)
 Reading materials:  
@@ -67,7 +70,7 @@ A: **soft skills**
 ## ECE120 Grading Scale is Absolute
 ![[ECE 120/Lec 01/images/3.png|500]]
 
-# Don't Cheat!
+## **Don't Cheat!**
 
 ## Emergency response: Run > Hide > Fight
 ## to search
