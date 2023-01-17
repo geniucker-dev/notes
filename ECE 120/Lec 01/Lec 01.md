@@ -62,10 +62,14 @@ A: **soft skills**
 ![[ECE 120/Lec 01/images/1.png|500]]
 
 ## Pre-lecture Quizzes (optional)
-...
+![[ECE 120/Lec 01/images/2.png|500]]
 
 ## ECE120 Grading Scale is Absolute
-90
+![[ECE 120/Lec 01/images/3.png|500]]
+
+# Don't Cheat!
+
+## Emergency response: Run > Hide > Fight
 ## to search
 - LC3(or maybe lct?)  
 
