@@ -1,0 +1,75 @@
+## What is ECE 120?
+- Teach a system perspective that includes both hardware and soft ware (and math!)  
+- ECE culture and goals  
+- Expectations of engineers  
+- Lifelong learning necessary  
+- Understand and identify tradeoffs  
+- International group -- leverage it !  
+- Academic reality and grade philosophy  
+
+## Computers are ***Universal*** Computation Devices
+Super computer uses actually the same oprating operations as a simple cell phone so they can finish same task with abundant time.  
+
+## More Neurons than Transistors
+Neurons are more powerfull than transistors because more neurons can be housed in the same space.  
+
+## ECE Has Undergone a Digital Convergence
+
+## Bottom Up Approach Provides a Firm Understanding
+why do we build from the ground up?
+- Helps you develop of solid understand of the design an operation of each level.  
+- Easier to make effective use of abstractions and to improve those abstractions.  
+- Our students have been successful based on this approach (alumni feedback).  
+
+# Read the Wiki Every Day
+<https://canvas.illinois.edu/courses/34302>
+You can find:
+- announcements from course staff  
+- course info  
+- 
+
+## What to Read (and What Not to Read)
+Reading materials:  
+- Patt & Patel, 2nd edition  
+- ~150 pages of notes (free online)  
+Read those notes (see the Canvas for which parts)  
+- before class  
+- AND after class  
+Look at learning objectives in notes summary sections.  
+Use the online tools to practice.  
+Be wary of the Web. No one has screened tehe content for accuracy.  
+
+## Word load Includes Labs and Homework
+Weekly lab assignments  
+- Software and hardware  
+- Usually due ***`Fridays at 11:59 p.m.`***  
+- See assignments for specifics of how and when to turn in  
+
+***FIRST LAB: due on `Friday, January 27`***  
+
+Weekly homeword assignments  
+Some homework assignment will have two parts:  
+- **Skill Practkce** and **Skill Applicaitons** problems on PrairieLearn  
+- **Written** problems submittted via **Canvas**  
+
+***FIRST HOMEWORK: due `Wednsday, January, 25`***
+
+## And Wordloads Includes Discussions
+A question: What skill least developed i many ECE grads?  
+A: **soft skills**  
+
+## How Will We Grade?
+![[ECE 120/Lec 01/images/1.png|500]]
+
+## Pre-lecture Quizzes (optional)
+...
+
+## ECE120 Grading Scale is Absolute
+90
+## to search
+- LC3(or maybe lct?)  
+
+
+
+
+flipflop: 触发器
