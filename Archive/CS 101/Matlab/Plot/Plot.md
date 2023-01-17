@@ -38,4 +38,4 @@ y2 = sin(5*x);
 plot(x,y2);
 ```
 the result is like this:
-![[CS 101/Matlab/Plot/image/1.png|400]]
+![[Archive/CS 101/Matlab/Plot/image/1.png|400]]

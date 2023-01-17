@@ -18,7 +18,7 @@
 - ***unit cell***: the smallest repeating unit of the lattice
 ### X-ray Analysis of Solid
 ***Bragg Equation***: $n\lambda = 2dsin\theta$
-![[CHEM 102/Chapter 10/Image/1.png|400]]
+![[Archive/CHEM 102/Chapter 10/Image/1.png|400]]
 记两个词：
 - in-phase: 同相的
 - out of phase: 反相的
@@ -31,7 +31,7 @@
 - Ionic Solids
 ### Band Model in Metals
 Also called Molecular Orbital Model. When many metal atoms interact, the gap of energy among molecular orbitals become more closely and finally form a virtual continuum of levels, called ***bands***. Like the picture bellow:
-![[2.png|600]]
+![[Archive/CHEM 102/Chapter 10/Image/2.png|600]]
 (we can see that the energy gap between filled MO and empty MO, thus the electrons in partially filled bonds are mobile)
 ### Network Solids
 ***Network solids***: Many atomic solids contain strong directional covalent bonds to form a solid that might best be viewed as a “giant molecule.”
