@@ -3,3 +3,10 @@
 ![[Pasted image 20230203083044.png|300]]: NAND: $(AB)'$  
 
 ## Optimizing Logic Expression
+> Choose a metric FIrst  
+
+How do we measure good?  
+- area / size / cost,                     or  
+- performance / speed,              or
+- power / energy consumption, or  
+- complexity / reliablility.
