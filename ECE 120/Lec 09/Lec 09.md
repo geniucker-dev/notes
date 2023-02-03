@@ -28,3 +28,5 @@ heuristic for daylay / speed:
 Why:  
 - Each gate takes time switch its output on/off.  
 - We call this time a gate delay.  
+
+one heuristic for power
