@@ -9,3 +9,6 @@ Three are present in every argument:
 - Support (or data)  
 - Warrant (or assumpption)  
 Three may or may not be present (optional)
+
+
+
