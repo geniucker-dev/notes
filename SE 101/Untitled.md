@@ -19,3 +19,16 @@ Load Bearing Elements
 - beams  
 - walls  
 
+Foundation Categories
+- Shallow (spread)
+    - **stable** soil, adequate bearing capacity  
+- Deep
+    - underlying soll unstable, inda...
+
+Spread Footings
+- lowest part of a shallow foundation  
+- two main kinds  
+    - strip (wall)  
+    - isolated (columns)
+
+Type
