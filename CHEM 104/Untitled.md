@@ -10,3 +10,7 @@ Although there is a significant difference in going from the 3d to the 4d metals
 -   在配体中，直接与金属原子/离子键合的原子称为给体原子。
 -   如果配位化合物(coordination complex)带有净电荷，则称为配合物离子(complex ion)。
 -   包含配位化合物的化合物称为配位化合物(coordination compounds)。
+
+- 金属配合物通常由一个配合物离子(complex ion)——一个过渡金属离子及其附着的配体，以及由阴离子或阳离子组成的对离子(counterion)组成，以产生一个没有净电荷的化合物。
+- 配位数反映了金属离子和配体之间形成的键的数量。
+- 金属配合物的氧化态并不总是配合物离子的净电荷，并且有时会在化学式中用罗马数字表示。
