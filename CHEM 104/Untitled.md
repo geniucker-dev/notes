@@ -1,0 +1,1 @@
+Although there is a significant difference in going from the 3d to the 4d metals, the 4d and 5d metals are remarkably similar in many properties.
