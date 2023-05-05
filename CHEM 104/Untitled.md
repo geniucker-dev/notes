@@ -20,9 +20,9 @@ Although there is a significant difference in going from the 3d to the 4d metals
 -   可以与金属离子形成两个以上键的配体称为多齿配体或多配体(polydentate Ligands)。
 -   螯合配体(Chelating ligands)或螯合物(chelates)具有多个带有孤电子对的原子，可以用于与金属离子形成键。
 
-![[Pasted image 20230505003750.png]]
 
-### Rules for Naming Coordination Compounds
+
+#![[Pasted image 20230505003750.png]]## Rules for Naming Coordination Compounds
 -   在化合物中，阳离子的名称先于阴离子。
 -   在命名配合物离子时，先命名配体，后命名金属离子。
 -   在命名配体时，根据阴离子的名称加上“o”。对于中性配体，使用分子的名称。
