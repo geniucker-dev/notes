@@ -1,7 +1,7 @@
 {
   "accentColor": "#8caaee",
   "theme": "moonstone",
-  "baseFontSize": 16,
+  "baseFontSize": 27,
   "cssTheme": "Catppuccin",
   "translucency": false,
   "nativeMenus": false
