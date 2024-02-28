@@ -11,7 +11,7 @@ How do we measure good?
 - power / energy consumption, or  
 - complexity / reliability.
 
-measuring exactly is expensive, so instead we use **heuristics** which are ways of **estimationg metric**  
+measuring exactly is expensive, so instead we use **heuristics** which are ways of **estimation metric**  
 
 heuristics for area:  
 - Count literals (A, A', B, B', C, C'),  then  
