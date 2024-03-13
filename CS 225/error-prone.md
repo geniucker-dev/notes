@@ -26,3 +26,4 @@ int main() {
     ref.f2();
 }
 ```
+result: `Derived::f1() is called`
