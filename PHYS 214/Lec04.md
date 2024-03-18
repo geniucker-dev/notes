@@ -32,3 +32,17 @@ $$a\sin\theta_{min} = \frac{\lambda}{a}$$
 $$I_1 = I_0 \left( \frac{\sin(\frac{\beta}{2})}{\frac{\beta}{2}} \right)^2$$
 
 这里 $\beta = 2\pi \frac{a\sin \theta}{\lambda}$
+
+## 多缝衍射+干涉
+
+干涉因子
+
+$$\left( \frac{\sin(\frac{N\phi}{2})}{\sin(\frac{\phi}{2})} \right)^2$$
+
+衍射因子
+
+$$\left( \frac{\sin(\frac{\beta}{2})}{\frac{\beta}{2}} \right)^2$$
+
+所以最终的强度：
+
+$$I = I_0 \left( \frac{\sin(\frac{N\phi}{2})}{\sin(\frac{\phi}{2})} \right)^2 \left( \frac{\sin(\frac{\beta}{2})}{\frac{\beta}{2}} \right)^2$$
