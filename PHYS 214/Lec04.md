@@ -46,3 +46,14 @@ $$\left( \frac{\sin(\frac{\beta}{2})}{\frac{\beta}{2}} \right)^2$$
 所以最终的强度：
 
 $$I = I_0 \left( \frac{\sin(\frac{N\phi}{2})}{\sin(\frac{\phi}{2})} \right)^2 \left( \frac{\sin(\frac{\beta}{2})}{\frac{\beta}{2}} \right)^2$$
+
+其中
+
+$$
+\begin{aligned}
+& \frac{\phi}{2\pi} = \frac{\delta}{\lambda} = \frac{d \sin \theta}{\lambda} \\
+& \frac{\beta}{2\pi} = \frac{\delta_a}{\lambda} = \frac{a \sin \theta}{\lambda} \\
+& \phi = \text{phase between adjacent slits} \\
+& \beta = \text{phase across one slit}
+\end{aligned}
+$$
