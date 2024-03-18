@@ -18,3 +18,5 @@ $$I_{min} = \left\vert A_1 - A_2 \right\vert ^2$$
 一个很重要的式子：
 
 $$d \sin \theta = m \lambda$$
+
+这个式子只在$\theta$很小的时候成立
