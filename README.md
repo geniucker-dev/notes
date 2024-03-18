@@ -1,2 +1,5 @@
+# Obsidian-Geniucker
+
 It's a repo used to sync my obsidian notes.
-**If you find something wrong or feel confused about something, plz tell me.**  
+
+There are some rendering issues since renderer of GitHub doesn't support all the features of Obsidian.
