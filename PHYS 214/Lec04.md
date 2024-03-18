@@ -30,3 +30,5 @@ $$a\sin\theta_{min} = \frac{\lambda}{a}$$
 衍射强度：
 
 $$I_1 = I_0 \left( \frac{\sin(\frac{\beta}{2})}{\frac{\beta}{2}} \right)^2$$
+
+这里 $\beta = 2\pi \frac{a\sin \theta}{\lambda}$
