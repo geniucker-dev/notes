@@ -19,7 +19,7 @@ $$\frac{\Delta \lambda_{min}}{\lambda} = \frac{1}{Nm}$$
 
 ## Single-slit diffraction
 
-![[assets/Lec04/Pasted image 20240318150744.png]]
+![](./assets/Lec04/Pasted%20image%2020240318150744.png)
 
 这个看不懂
 
