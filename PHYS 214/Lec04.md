@@ -15,3 +15,5 @@ $$\frac{\phi}{2\pi} = \frac{\delta}{\lambda} = \frac{d\sin\theta}{\lambda}$$
 衍射光栅分辨率：
 
 $$\frac{\Delta \lambda_{min}}{\lambda} = \frac{1}{Nm}$$
+
+![[assets/Lec04/Pasted image 20240318150744.png]]
