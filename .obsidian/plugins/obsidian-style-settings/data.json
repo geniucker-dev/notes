@@ -2,5 +2,6 @@
   "blue-topaz-theme@@color-scheme-options": "color-scheme-options-simplicity-topaz",
   "blue-topaz-theme@@font-family-change-to-default": false,
   "blue-topaz-theme@@font-monospace-theme": "'CaskaydiaCove NF'",
-  "blue-topaz-theme@@transparent-setting-panel": false
+  "blue-topaz-theme@@transparent-setting-panel": false,
+  "catppuccin-theme-settings@@catppuccin-theme-dark": "ctp-macchiato"
 }
