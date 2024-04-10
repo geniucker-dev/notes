@@ -15,5 +15,8 @@ A hash function consists of:
 ![[assets/Pasted image 20240410091435.png | 400]]
 
 load factor $\alpha = \frac{n}{N}$
+
+注意到会有空位没用（unbounded），所以这是一个 open hashing
+
 ### Probe-based Hashing
 
