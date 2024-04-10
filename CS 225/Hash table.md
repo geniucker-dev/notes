@@ -20,3 +20,8 @@ load factor $\alpha = \frac{n}{N}$
 
 ### Probe-based Hashing
 
+假设 $S = \{ 16, 8, 4, 13, 29, 11, 22 \}$, $h(k) = k \% 7$
+
+![[assets/Pasted image 20240410093044.png | 500]]
+
+
