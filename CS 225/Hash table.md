@@ -8,3 +8,7 @@ A hash function consists of:
 
 ### Separate Chaining
 
+使用链表来存储
+
+假设 $S = \{ 16, 8, 4, 13, 29, 11, 22 \}$, $h(k) = k \% 7$
+
