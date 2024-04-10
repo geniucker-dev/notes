@@ -14,5 +14,6 @@ A hash function consists of:
 
 ![[assets/Pasted image 20240410091435.png | 400]]
 
+load factor $\alpha = \frac{n}{N}$
 ### Probe-based Hashing
 
