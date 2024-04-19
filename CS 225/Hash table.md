@@ -37,6 +37,9 @@ load factor $\alpha = \frac{n}{N}$
 ![[assets/Pasted image 20240419142315.png | 500]]
 
 ## 时间 （不用记）
+
+下面是SUHA条件下找到一个key的期望寻找次数
+
 ### Linear Probing
 
 - Successful: $\frac{1}{2}\left( 1+\frac{1}{1-\alpha} \right)$
@@ -52,3 +55,8 @@ load factor $\alpha = \frac{n}{N}$
 - Successful: $1+\frac{\alpha}{2}$
 - Unsuccessful: $1+\alpha$
 
+## 重哈希
+
+从上面知道，$\alpha$大的时候哈希表会速度会退化，所以在$\alpha$达到一定值我们需要进行重哈希。
+
+我们一般吧哈希表大小扩大到原来的2倍，然后重新进行哈希映射
