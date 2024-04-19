@@ -34,4 +34,15 @@ load factor $\alpha = \frac{n}{N}$
 
 ## Double Hashing
 
+![[assets/Pasted image 20240419142315.png | 500]]
+
+## 时间 （不用记）
+### Linear Probing
+
+- Successful: $\frac{1}{2}\left( 1+\frac{1}{1-\alpha} \right)$
+- Unsuccessful: $\frac{1}{2}\left( 1+\frac{1}{1-\alpha} \right)^2$
+
+### Double Hashing
+
+- Successful: $\frac{1}{\alpha} $
 
