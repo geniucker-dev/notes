@@ -30,4 +30,8 @@ load factor $\alpha = \frac{n}{N}$
 
 ![[assets/Pasted image 20240410093044.png | 500]]
 
+缺点：即使负载低也很容易拥挤，导致寻址变慢
+
+## Double Hashing
+
 
