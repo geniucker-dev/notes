@@ -10,6 +10,6 @@
 
 ## 时间复杂度
 
-查找、顺序访问、插入、删除是$\mathrm{O}(n)$
+查找、顺序访问、插入、删除是$\mathrm{O}(\log(n))$
 
-构建是$\mathrm{O}(\log(n))$
+构建是$\mathrm{O}(n\log(n))$
