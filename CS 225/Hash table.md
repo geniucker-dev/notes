@@ -44,5 +44,11 @@ load factor $\alpha = \frac{n}{N}$
 
 ### Double Hashing
 
-- Successful: $\frac{1}{\alpha} $
+- Successful: $\frac{1}{\alpha} \times \ln\left( \frac{1}{1-\alpha} \right)$
+- Unsuccessful: $\frac{1}{1-\alpha}$
+
+### Separate Chaining
+
+- Successful: $1+\frac{\alpha}{2}$
+- Unsuccessful: $1+\alpha$
 
