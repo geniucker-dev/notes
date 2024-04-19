@@ -4,13 +4,13 @@ A hash function consists of:
 2. array
 3. collision resolution strategies
 
-SUHA: Simple Uniform Hashing Assumption
+SUHA: Simple Uniform Hashing Assumption，意思大概是均匀分布，定义为$\mathrm{P}(\mathrm{h}(a)=\mathrm{h}(b))=\frac{1}{m}$
 
 一个好的哈希函数满足：
 - 常数时间（$\mathrm{O}(1)$）
 - 确定性（如果$k_1==k_2 \implies h(k_1)==h(k_2)$
 
-## Collision Handling
+## Collision Handlin
 
 ### Separate Chaining
 
