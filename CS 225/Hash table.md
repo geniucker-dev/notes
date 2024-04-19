@@ -87,5 +87,15 @@ $N \approx 1.5n$
 - `operator[]`
 - `insert`
 - `erase`
-- `lower_bound(key)`
-- `upper_bound(key)`
+- `lower_bound(key)`: Iterator to the first element <= key
+- `upper_bound(key)`: Iterator to the first element > key
+
+### std::unordered_map
+
+方法
+
+- `operator[]`
+- `insert`
+- `erase`
+- `load_factor()`
+- `max_load_factor(ml)`: 设置最大load factor
