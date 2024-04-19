@@ -60,3 +60,32 @@ load factor $\alpha = \frac{n}{N}$
 从上面知道，$\alpha$大的时候哈希表会速度会退化，所以在$\alpha$达到一定值我们需要进行重哈希。
 
 我们一般吧哈希表大小扩大到原来的2倍，然后重新进行哈希映射
+
+## 复杂度
+
+### 时间复杂度
+- 查找：
+    - 平均：$\mathrm{O}(1)$
+    - 最差：$\mathrm{O}(n)$
+- 插入：
+    - 平均：$\mathrm{O}(1)$
+    - 最差：$\mathrm{O}(n)$
+
+### 空间复杂度
+
+$\mathrm{O}(n)$
+
+$N \approx 1.5n$
+
+## 几个std ADS
+
+### std::map
+
+是红黑树实现的
+
+方法：
+- `operator[]`
+- `insert`
+- `erase`
+- `lower_bound(key)`
+- `upper_bound(key)`
