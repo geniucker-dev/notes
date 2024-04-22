@@ -68,4 +68,6 @@ int DisjointSets:find(int i) {
 
 ![[assets/Pasted image 20240422094721.png]]
 
+两种策略都能保证树的高度为$\mathrm{O}(\log(n))$
+
 #### 最小高度
