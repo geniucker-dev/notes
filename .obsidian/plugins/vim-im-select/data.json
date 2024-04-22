@@ -3,6 +3,6 @@
   "obtainCmd": "",
   "switchCmd": "",
   "windowsDefaultIM": "1033",
-  "windowsObtainCmd": "im-select.exe",
-  "windowsSwitchCmd": "im-select {im}"
+  "windowsObtainCmd": "D:/Programs/im-select/im-select.exe",
+  "windowsSwitchCmd": "D:/Programs/im-select/im-select.exe {im}"
 }
