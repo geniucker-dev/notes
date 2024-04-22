@@ -71,3 +71,6 @@ int DisjointSets:find(int i) {
 两种策略都能保证树的高度为$\mathrm{O}(\log(n))$
 
 #### 最小高度
+
+根节点的值为$-h-1$
+
