@@ -19,4 +19,53 @@
 
 ## 实现
 
+### 实现1
+
+用数组实现，索引为元素，值为所属自己的代表元素
+
+- `find(k)`: $\mathrm{O}(1)$
+- `union(k1, k2)`: $\mathrm{O}(n)$
+
+### 实现2：Uptrees
+
 我们用一个树状结构来表示
+
+![[assets/Pasted image 20240422093322.png]]
+
+为了实现这个结构，我们可以用一个数组，索引表示元素，值表示父节点的索引，根节点的值另外表示（图中为-1）
+
+![[assets/Pasted image 20240422093358.png]]
+
+#### find
+
+```cpp
+int DisjointSets:find(int i) {
+    if (s[i] < 0) {
+        return i;
+    } else {
+        return find(s[i]);
+    }
+}
+```
+
+上述实现的时间复杂度为$\mathrm{O}(n)$
+
+为了改善时间复杂度，我们可以在查询的把被路径上的节点全部指向代表节点，这样后续查询都会变成$\mathrm{O}(1)$
+
+![[assets/Pasted image 20240422094322.png | 300]]
+
+#### Union
+
+假设有下面这个数据
+
+![[assets/Pasted image 20240422093833.png | 300]]
+
+现在进行一些union操作
+
+![[assets/Pasted image 20240422093916.png]]
+
+上述只是一个简单示意，实际操作的时候我们一般有两种策略：最小高度和最小尺寸
+
+![[assets/Pasted image 20240422094721.png]]
+
+#### 最小高度
