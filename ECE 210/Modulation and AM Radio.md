@@ -26,4 +26,4 @@ $$\mathrm{X}(\omega) = \frac{\mathrm{F}(\omega-\omega_{c}) + \mathrm{F}(\omega+\
 
 ![[assets/Pasted image 20240423143553.png | 800]]
 
-$$\mathrm{y}(t) = \mathrm{A}(t)\cos(\omega_{c}t+\theta_{t})$$
+$$\mathrm{y}(t) = \underbrace{ \mathrm{A}(t) }_{ \text{Amplitude} }\cos(\omega_{c}t+\theta_{t})$$
