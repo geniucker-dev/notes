@@ -4,4 +4,4 @@
 
 $v = (v_{1}, v_{2},\cdots, v_{n})$
 
-Then $\lvert  \rvert$
+Then $\begin{Vmatrix}v\end{Vmatrix}$
