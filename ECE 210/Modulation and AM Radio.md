@@ -26,4 +26,23 @@ $$\mathrm{X}(\omega) = \frac{\mathrm{F}(\omega-\omega_{c}) + \mathrm{F}(\omega+\
 
 ![[assets/Pasted image 20240423143553.png | 800]]
 
-$$\mathrm{y}(t) = \underbrace{ \mathrm{A}(t) }_{ \text{Amplitude} }\cos(\omega_{c}t+\theta_{t})$$
+$$\mathrm{y}(t) = \underbrace{ \mathrm{A}(t) }_{ \text{amplitude} }\cos(\underbrace{ \omega_{c} }_{ \text{frequency} }t+\underbrace{ \theta_{t} }_{ \text{phase} })$$
+
+## 为什么调制
+
+### 天线长度
+
+信号的波长：$\lambda = \frac{c}{f_{c}}$
+
+有效传输的天线长度：$L > \frac{\lambda}{4}=\frac{c}{4f_{c}}$
+
+几种常见的波对应的天线长度：
+
+- 声波波长$\approx 15 \text{KHz} \implies L>5 \text{Km}$
+- AM: $580\text{KHz} \implies L>130 \text{m}$
+- FM: $100\text{MHz} \implies L>75 \text{cm}$
+- 卫星：$10\text{GHz} \implies L>7.5 \text{mm}$
+
+### 可用带宽
+
+不可能全部在
