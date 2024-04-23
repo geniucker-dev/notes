@@ -48,3 +48,5 @@ $$\mathrm{y}(t) = \underbrace{ \mathrm{A}(t) }_{ \text{amplitude} }\cos(\underbr
 不可能全部在基带发送，因为发射机的频率是固定的
 
 ## AM解调
+
+如上面所说，发送端
