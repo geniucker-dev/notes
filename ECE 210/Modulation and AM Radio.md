@@ -49,4 +49,10 @@ $$\mathrm{y}(t) = \underbrace{ \mathrm{A}(t) }_{ \text{amplitude} }\cos(\underbr
 
 ## AM解调
 
-如上面所说，发送端
+如上面所说，发送端发送信号$\mathrm{x}(t)=\mathrm{f}(t)\cos(\omega_{c}t)$，$\mathrm{X}(\omega)=\frac{\mathrm{F}(\omega-\omega_{c}) + \mathrm{F}(\omega+\omega_{c})}{2}$
+
+### Coherent demodulation
+
+在接收端，把收到的信号乘$\cos(\omega_{c}t)$
+
+$$$$
