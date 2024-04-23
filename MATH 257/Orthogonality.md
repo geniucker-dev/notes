@@ -24,4 +24,4 @@ $v^\mathrm{T}w = 0$
 
 ### 定义
 
-定义：有两个子空间$V$，$W$，如果对于$$
+定义：有两个子空间$V$，$W$，如果对于$\forall v \in V, \forall w \in W,  v^\mathrm{T}w=0$，那么$V \perp W$
