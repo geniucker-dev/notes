@@ -70,7 +70,10 @@ $$
 
 $$
 \begin{aligned}
-
+\mathrm{g}(t) &= \mathrm{x}(t-t_{0})\cos(\omega_{c}t) \\
+&= \mathrm{f}(t-t_{0})\cos[\omega_{c}(t-t_{0})]\cos(\omega_{c}t) \\
+&= \mathrm{f}(t-t_{0})\left[ \frac{1}{2}\cos[2\omega_{c}t-\omega_{c}t_{0}]+\frac{1}{2}\cos(\omega_{c}t_{0}) \right] \\
+&= \frac{1}{2}\mathrm{f}(t-t_{0})\cos(2\omega_{c}t-\omega_{c}t_{0})+\frac{1}{2}\mathrm{f(t-t_{0})}\cos(\omega_{c}t_{0})
 \end{aligned}
 $$
 
