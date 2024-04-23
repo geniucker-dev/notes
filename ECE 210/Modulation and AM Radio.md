@@ -62,4 +62,15 @@ $$
 \end{aligned}
 $$
 
-$$$$
+![[assets/Pasted image 20240423162900.png | 600]]
+
+然后我们再加个Low Pass Filter就能把中间的滤出来
+
+如果信道不是理想的，即$\mathrm{g}(t)=\mathrm{x}(t-t_{0})\cos(\omega_{c}t)$
+
+$$
+\begin{aligned}
+
+\end{aligned}
+$$
+
