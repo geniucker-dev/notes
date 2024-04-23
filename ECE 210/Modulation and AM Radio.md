@@ -45,4 +45,6 @@ $$\mathrm{y}(t) = \underbrace{ \mathrm{A}(t) }_{ \text{amplitude} }\cos(\underbr
 
 ### 可用带宽
 
-不可能全部在
+不可能全部在基带发送，因为发射机的频率是固定的
+
+## AM解调
