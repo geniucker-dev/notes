@@ -56,7 +56,10 @@ $$\mathrm{y}(t) = \underbrace{ \mathrm{A}(t) }_{ \text{amplitude} }\cos(\underbr
 在接收端，把收到的信号乘$\cos(\omega_{c}t)$
 
 $$
-
+\begin{aligned}
+\mathrm{G}(\omega) &= \frac{\mathrm{X}(\omega-\omega_{c}) + \mathrm{X}(\omega+\omega_{c})}{2} \\
+&=\frac{\mathrm{X}(\omega-2\omega_{c}) + 2\mathrm{X}(\omega) + \mathrm{X}(\omega+2\omega_{c})}{4}
+\end{aligned}
 $$
 
-$$\mathrm{G}(\omega)=\frac{\mathrm{X}(\omega-\omega_{c}) + \mathrm{X}(\omega+\omega_{c})}{2}$$
+$$$$
