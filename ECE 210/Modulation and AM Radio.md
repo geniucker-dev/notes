@@ -87,7 +87,13 @@ $$
 \lvert \mathrm{f}(t)\cos(\omega_{c}t) \rvert \\
 &= \mathrm{f}(t) \lvert \cos(\omega_{c}t) \rvert \\
 &= \mathrm{f}(t) \left[ \sum_{n=1}^\infty c_{n}\cos(2n\omega_{c}t+\theta_{n}) \right] \\
-&= \frac{c_{0}}{2}\mathrm{f(t)} + \sum_{n=1}^\infty \mathrm{f}(t)\cos(2n\omega_{c}t+\theta_{n})
+&= \frac{c_{0}}{2}\mathrm{f(t)} + \sum_{n=1}^\infty \mathrm{f}(t) c_{n} \cos(2n\omega_{c}t+\theta_{n})
 \end{aligned}
+$$
+
+对上面这玩意儿进行傅里叶变换
+
+$$
+\mathrm{X}(\omega) = \frac{c_{0}}{2}\mathrm{F}(\omega) + \sum_{n=1}^\infty \frac{c_{n}}{2}\left[ \mathrm{F}(\omega-2n\omega_{c})e^{j\theta n} + \mathrm{F}(\omega+2n\omega_{c})e^{-j\theta n} \right]
 $$
 
