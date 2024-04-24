@@ -122,3 +122,17 @@ $\text{ratio} = \frac{B}{f_{c}}=\frac{10\text{KHz}}{580\text{KHz}}=\frac{1}{58}$
 1. $\frac{B}{f_{c}}$ 很小，所以很难设计这样的BPF
 2. 设计不同的BPF
 
+超外差接收器先解调到一个较低的载波频率
+
+![[assets/Pasted image 20240424164350.png | 800]]
+
+如上图，接收到的信号$\mathrm{r}(t)$先乘一个$\cos(\omega_{LO}t)$
+
+$$
+\begin{aligned}
+\mathrm{m}(t) &= \mathrm{f}(t)\cos(\omega_{c}t)\cos(\omega_{LO}t) \\
+&= \frac{1}{2}\mathrm{f}(t)\cos((\omega_{LO}-\omega_{c})t)+\frac{1}{2}\mathrm{f}(t)\cos((\omega_{LO}+\omega_{c})t)
+\end{aligned}
+$$
+
+我们让$\omega_{LO}=\omega_{c}$
