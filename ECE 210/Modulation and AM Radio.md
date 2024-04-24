@@ -80,3 +80,13 @@ $$
 **要相位同步？？？**
 
 ### 包络检测 Envelop Detection
+
+$$
+\begin{aligned}
+\lvert \mathrm{x}(t) \rvert &=
+\lvert \mathrm{f}(t)\cos(\omega_{c}t) \rvert \\
+&= \mathrm{f}(t) \lvert \cos(\omega_{c}t) \rvert \\
+&= \mathrm{f}(t) \left[ \sum_{n=1}^\infty c_{n}\cos(2n\omega_{c}t+\theta_{n}) \right] \\
+&= \frac{c_{0}}{2}\mathrm{f(t)} + \sum_{n=1}^\infty \mathrm{f}(t)\cos(2n\omega_{c}t+\theta_{n})
+\end{aligned}
+$$
