@@ -147,4 +147,8 @@ $$\omega_{LO} = \omega_{c}+\omega_{IF}$$
 
 $$\frac{1}{\sqrt{ LC }}=2\pi f_{LO}$$
 
-但是上述的过程c
+但是上述的过程存在一些问题
+
+![[assets/Pasted image 20240424181748.png | 800]]
+
+会不同信号在解调到$\omega_{IF}$之后会重叠
