@@ -115,3 +115,10 @@ It's not linear since $\lvert a+b \rvert\neq \lvert a \rvert + \lvert b \rvert$
 
 ![[assets/Pasted image 20240424163120.png | 800]]
 
+![[assets/Pasted image 20240424163320.png | 600]]
+
+$\text{ratio} = \frac{B}{f_{c}}=\frac{10\text{KHz}}{580\text{KHz}}=\frac{1}{58}$, which is very small
+
+1. $\frac{B}{f_{c}}$ 很小，所以很难设计这样的BPF
+2. 设计不同的BPF
+
