@@ -151,7 +151,7 @@ $$\frac{1}{\sqrt{ LC }}=2\pi f_{LO}$$
 
 ![[assets/Pasted image 20240424181748.png | 800]]
 
-会不同信号在解调到$\omega_{IF}$之后会重叠，解决方法就是在最开始加一个BFP，这个BFP不需要质量很好
+会不同信号在解调到$\omega_{IF}$之后会重叠，这个不想要的信号是**image station**，频率为$f_{IS}=\omega_{c}+2\omega_{IF}$，解决方法就是在最开始加一个BFP，这个BFP不需要质量很好
 
 ![[assets/Pasted image 20240424182909.png | 800]]
 
