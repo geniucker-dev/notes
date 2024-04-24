@@ -11,11 +11,7 @@ $$
 
 $$
 \begin{aligned}
-\mathrm{y}(t) = \int_{-\infty}^{\infty} \mathrm{f}(\tau)\mathrm{h}(t-\tau) \, \mathrm{d}\tau \triangleq \mathrm{f}(t) * \mathrm{h}(t)
+\mathrm{y}(t) = \int_{-\infty}^{\infty} \mathrm{f}(\tau)\mathrm{h}(t-\tau) \, \mathrm{d}\tau \triangleq \mathrm{f}(t) * \mathrm{h}(t) & \text{T.D.}\\
+\mathrm{Y}(\omega) = \mathrm{F}(\omega)\mathrm{H}(\omega) & \text{F.D.}
 \end{aligned}
 $$
-
-$$
-\mathrm{Y}(\omega) = \mathrm{F}(\omega)\mathrm{H}(\omega)
-$$
-
