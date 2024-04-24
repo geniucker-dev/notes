@@ -151,4 +151,4 @@ $$\frac{1}{\sqrt{ LC }}=2\pi f_{LO}$$
 
 ![[assets/Pasted image 20240424181748.png | 800]]
 
-会不同信号在解调到$\omega_{IF}$之后会重叠
+会不同信号在解调到$\omega_{IF}$之后会重叠，解决方法就是在
