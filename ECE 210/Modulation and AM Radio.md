@@ -135,4 +135,10 @@ $$
 \end{aligned}
 $$
 
-我们让$\omega_{LO}=\omega_{c}$
+我们让$\underbrace{ \omega_{LO} }_{ \text{freq. of local oscilator} }-\underbrace{ \omega_{c} }_{ \text{原本的载波频率} }=\underbrace{ \omega_{IF} }_{ \text{期望的载波频率} }$
+
+$$\omega_{LO} = \omega_{c}+\omega_{IF}$$
+
+![[assets/Pasted image 20240424165205.png | 800]]
+
+这么做的目的就是吧$\mathrm{R}(\omega)$从高频移动到低频$\mathrm{}$
