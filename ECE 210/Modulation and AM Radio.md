@@ -111,4 +111,7 @@ It's not linear since $\lvert a+b \rvert\neq \lvert a \rvert + \lvert b \rvert$
 
 ### 超外差接收器 superheterodyne receiver
 
-真实的无线电传输
+真实的无线电传输会占用一定的频宽
+
+![[assets/Pasted image 20240424163120.png | 800]]
+
