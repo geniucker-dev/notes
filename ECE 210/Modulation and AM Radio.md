@@ -97,3 +97,11 @@ $$
 \mathrm{X}(\omega) = \frac{c_{0}}{2}\mathrm{F}(\omega) + \sum_{n=1}^\infty \frac{c_{n}}{2}\left[ \mathrm{F}(\omega-2n\omega_{c})e^{j\theta n} + \mathrm{F}(\omega+2n\omega_{c})e^{-j\theta n} \right]
 $$
 
+![[assets/Pasted image 20240424122719.png | 800]]
+
+用低通即可分离出原始信号
+
+在上面的计算里我们假设了$\mathrm{f}(t)>0$，如果遇到信号小于0，可以先加上一个直流偏移量$D$，包络检测之后再减去$D$
+
+![[assets/Pasted image 20240424122937.png | 800]]
+
