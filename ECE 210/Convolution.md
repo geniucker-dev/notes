@@ -18,3 +18,4 @@ $$
 $$
 \mathrm{Y}(\omega) = \mathrm{F}(\omega)\mathrm{H}(\omega)
 $$
+
