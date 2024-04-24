@@ -105,3 +105,10 @@ $$
 
 ![[assets/Pasted image 20240424122937.png | 800]]
 
+![[assets/Pasted image 20240424162545.png | 800]]
+
+It's not linear since $\lvert a+b \rvert\neq \lvert a \rvert + \lvert b \rvert$
+
+### 超外差接收器 superheterodyne receiver
+
+真实的无线电传输
