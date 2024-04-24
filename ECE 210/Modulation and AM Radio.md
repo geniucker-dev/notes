@@ -90,3 +90,4 @@ $$
 &= \frac{c_{0}}{2}\mathrm{f(t)} + \sum_{n=1}^\infty \mathrm{f}(t)\cos(2n\omega_{c}t+\theta_{n})
 \end{aligned}
 $$
+
