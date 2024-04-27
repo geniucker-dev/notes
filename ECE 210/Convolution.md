@@ -42,3 +42,8 @@ $$
 ### End Point
 
 如果当$t>t_{e,f}时$$\mathrm{f}(t)=0$，当$t>t_{e,h}$时$\mathrm{h}(t)=0$，那么$t>t_{e,f}+t_{e,h}$时$\mathrm{y}(t)=\mathrm{f}(t)*\mathrm{h}(t)=0$
+
+### Width
+
+如果$\mathrm{f}(t)$的宽度是$T_{f}$，$\mathrm{h}(t)$的宽度是$T_h$，那么$\mathrm{y}(t)=\mathrm{f}(t)*\mathrm{h}(t)$的宽度是$T_{f}+T_{h}$
+
