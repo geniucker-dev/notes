@@ -34,3 +34,11 @@ $$
 & \text{F.D.}\quad \mathrm{F}(\omega)[\mathrm{G}(\omega)+H(\omega)]=\mathrm{F}(\omega)\mathrm{G}(\omega)+\mathrm{F}(\omega)\mathrm{H}(\omega)
 \end{aligned}
 $$
+
+### Start Point
+
+如果当$t<t_{s,f}时$$\mathrm{f}(t)=0$，当$t<t_{s,h}$时$\mathrm{h}(t)=0$，那么$t<t_{s,f}+t_{s,h}$时$\mathrm{y}(t)=\mathrm{f}(t)*\mathrm{h}(t)=0$
+
+### End Point
+
+如果当$t>t_{e,f}时$$\mathrm{f}(t)=0$，当$t>t_{e,h}$时$\mathrm{h}(t)=0$，那么$t>t_{e,f}+t_{e,h}$时$\mathrm{y}(t)=\mathrm{f}(t)*\mathrm{h}(t)=0$
