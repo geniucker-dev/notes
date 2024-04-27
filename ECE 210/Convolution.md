@@ -11,7 +11,26 @@ $$
 
 $$
 \begin{aligned}
-\mathrm{y}(t) = \int_{-\infty}^{\infty} \mathrm{f}(\tau)\mathrm{h}(t-\tau) \, \mathrm{d}\tau \triangleq \mathrm{f}(t) * \mathrm{h}(t) & \text{T.D.}\\
-\mathrm{Y}(\omega) = \mathrm{F}(\omega)\mathrm{H}(\omega) & \text{F.D.}
+\mathrm{y}(t) = \int_{-\infty}^{\infty} \mathrm{f}(\tau)\mathrm{h}(t-\tau) \, \mathrm{d}\tau \triangleq \mathrm{f}(t) * \mathrm{h}(t) & \quad \text{T.D.}\\
+\mathrm{Y}(\omega) = \mathrm{F}(\omega)\mathrm{H}(\omega) & \quad \text{F.D.}
+\end{aligned}
+$$
+
+## 性质
+
+### 交换律 Commutative
+
+$$\mathrm{y}(t)=\mathrm{f}(t)*\mathrm{h}(t)=\mathrm{h}(t)*\mathrm{f}(t)$$
+
+### Time Shift
+
+$$\mathrm{y}(t-t_{0})=\mathrm{f}(t-t_{0})*\mathrm{h}(t)=\mathrm{h}(t-t_{0})*\mathrm{f}(t)$$
+
+### 分配律 Distributive
+
+$$
+\begin{aligned}
+& \text{T.D.}\quad \mathrm{f}(t)*[\mathrm{g}(t)+\mathrm{h}(t)]=\mathrm{f}(t)*\mathrm{g}(t)+\mathrm{f}(t)*\mathrm{h}(t) \\
+& \text{F.D.}\quad \mathrm{F}(\omega)[\mathrm{G}(\omega)+H(\omega)]=\mathrm{F}(\omega)\mathrm{G}(\omega)+\mathrm{F}(\omega)\mathrm{H}(\omega)
 \end{aligned}
 $$
