@@ -1,3 +1,5 @@
+# Convolution
+
 $$\mathrm{f}(t) = \frac{1}{2\pi} \int _{-\infty}^\infty \mathrm{F}(\omega)e^{j\omega t}\mathrm{d}\omega \to \mathrm{y}(t)=\frac{1}{2\pi} \int _{-\infty}^\infty \mathrm{H}(\omega) \mathrm{F}(\omega)e^{j\omega t}\mathrm{d}\omega$$
 
 $$
@@ -47,4 +49,21 @@ $$
 
 如果$\mathrm{f}(t)$的宽度是$T_{f}$，$\mathrm{h}(t)$的宽度是$T_h$，那么$\mathrm{y}(t)=\mathrm{f}(t)*\mathrm{h}(t)$的宽度是$T_{f}+T_{h}$
 
-    
+# Impulse 
+
+## 引入
+
+看一下下面几个例子
+
+$$
+\begin{aligned}
+& \mathrm{f}(t) + 0 = \mathrm{f}(t) \\
+& \mathrm{f}(t) \cdot 1 = \mathrm{f}(t) \\
+& \mathrm{f}(t) / 1 = \mathrm{f}(t)
+\end{aligned}
+$$
+
+上面$0, 0, 1$分别是加法，乘法，除法的单位元，这一节就是找卷积的单位元
+
+$$\mathrm{f}(t)*\mathrm{p}(t) = \mathrm{f}(t) \text{, for all } \mathrm{f}(t)$$
+
