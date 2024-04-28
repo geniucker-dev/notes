@@ -155,3 +155,9 @@ $$
 $$
 
 $$\mathrm{F^{-1}}\{ \mathrm{\delta}(\omega) \} = \frac{1}{2\pi}$$
+
+### Doublet
+
+$$\text{F.D.}\quad \mathrm{F}(\omega)\cdot j\omega\cdot 1 = j\omega \mathrm{F}(\omega)$$
+$$\text{T.D.}\quad \mathrm{f}(t)*\mathrm{\delta'}(t) = \mathrm{f'}(t)$$
+
