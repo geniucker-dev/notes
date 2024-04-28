@@ -67,3 +67,35 @@ $$
 
 $$\mathrm{f}(t)*\mathrm{p}(t) = \mathrm{f}(t) \text{, for all } \mathrm{f}(t)$$
 
+## 定义
+
+$$p_{\epsilon}=\frac{1}{\epsilon}\mathrm{rect}\left( \frac{t}{\epsilon} \right)$$
+
+$$\mathrm{\delta}(t) = \lim_{ \epsilon \to 0 } p_{\epsilon}$$
+
+$\mathrm{\delta}(t)$就是卷积的单位元
+
+## 性质
+
+### Energy
+
+$$
+\begin{aligned}
+W_{p_{\epsilon}} &= \int_{-\infty}^{\infty} \lvert p_{\epsilon}(t) \rvert^2  \, \mathrm{d}t \\
+&= \int_{-\frac{\epsilon}{2}}^{\frac{\epsilon}{2}}\left\lvert  \frac{1}{\epsilon}  \right\rvert^2 \, \mathrm{d}x \\
+&= \frac{1}{\epsilon}
+\end{aligned}
+$$
+
+$$W = \lim_{ \epsilon \to 0 } W_{p_{\epsilon}} = 0$$
+
+### Convolution
+
+$$\mathrm{f}(t)*\mathrm{\delta}(t) = \mathrm{f}(t)$$
+$$\mathrm{f}(t)*\mathrm{\delta}(t-t_{0}) = \mathrm{f}(t-t_{0})$$
+
+### Symmetry
+
+$$\mathrm{\delta}(t) = \mathrm{\delta}(-t)$$
+
+### Shifting
