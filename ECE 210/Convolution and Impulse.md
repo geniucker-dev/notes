@@ -149,6 +149,9 @@ $$\frac{\mathrm{d}}{\mathrm{d}t}\mathrm{u}(t) = \mathrm{\delta}(t)$$
 $$
 \begin{aligned}
 \mathrm{F}\{ \mathrm{\delta}(t) \} &= \int_{-\infty}^{\infty} \mathrm{\delta}(t) e^{-j\omega t} \, \mathrm{d}t \\
-&= 
+&= \int_{-\infty}^{\infty} \mathrm{\delta}(t)e^{-j\omega\cdot 0} \, \mathrm{d}t \\
+&= 1
 \end{aligned}
 $$
+
+$$\mathrm{F^{-1}}\{ \mathrm{\delta}(\omega) \} = \frac{1}{2\pi}$$
