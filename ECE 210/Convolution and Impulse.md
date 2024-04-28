@@ -99,3 +99,56 @@ $$\mathrm{f}(t)*\mathrm{\delta}(t-t_{0}) = \mathrm{f}(t-t_{0})$$
 $$\mathrm{\delta}(t) = \mathrm{\delta}(-t)$$
 
 ### Shifting
+
+$$
+\begin{aligned}
+\int_{-\infty}^{\infty} \mathrm{f}(t)\mathrm{\delta}(t) \, \mathrm{d}t &= \int_{-\infty}^{\infty} \mathrm{f}(0)\mathrm{\delta}(t) \, \mathrm{d}t \\
+&= \mathrm{f}(0)\int_{-\infty}^{\infty} \mathrm{\delta}(t) \, \mathrm{d}t \\
+&= \mathrm{f}(0)
+\end{aligned}$$
+
+$$\int_{-\infty}^{\infty} \mathrm{f}(t)\mathrm{\delta}(t-t_{0}) \, \mathrm{d}t = \mathrm{f}(t_{0})$$
+
+$$
+\int_{a}^{b} \mathrm{f}(t)\mathrm{\delta}(t) \, \mathrm{d}t =
+\begin{cases}
+\mathrm{f}(0) & a<0<b\\
+0 & \text{otherwise}
+\end{cases}
+$$
+
+### Area
+
+$$\int_{-\infty}^{\infty} \mathrm{\delta}(t) \, \mathrm{d}t = 1$$
+
+### Sampling
+
+$$\mathrm{f}(t)\mathrm{\delta}(t) = \mathrm{f}(0)\mathrm{\delta}(t)$$
+$$\mathrm{f}(t)\mathrm{\delta}(t-t_{0}) = \mathrm{f}(t_{0})\mathrm{\delta}(t-t_{0})$$
+
+### Scaling
+
+$$\mathrm{\delta}(at) = \frac{1}{\lvert a \rvert }\mathrm{\delta}(t)$$
+
+### Definite Integral
+
+$$
+\mathrm{u}(t) = \int_{-\infty}^{t} \mathrm{\delta}(t) \, \mathrm{d}t = 
+\begin{cases}
+1 & t\geq 0 \\
+0 & t<0
+\end{cases}
+$$
+
+### Unit-step Derivative
+
+$$\frac{\mathrm{d}}{\mathrm{d}t}\mathrm{u}(t) = \mathrm{\delta}(t)$$
+
+### Fourier Transform
+
+$$
+\begin{aligned}
+\mathrm{F}\{ \mathrm{\delta}(t) \} &= \int_{-\infty}^{\infty} \mathrm{\delta}(t) e^{-j\omega t} \, \mathrm{d}t \\
+&= 
+\end{aligned}
+$$
