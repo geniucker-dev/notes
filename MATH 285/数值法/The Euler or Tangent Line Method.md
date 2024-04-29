@@ -88,3 +88,9 @@ $e_{n+1} = \phi(t_{n+1}) - y_{n+1}^*=\frac{1}{2}\phi''(\bar{t_{n}})h^2$
 $\lvert e_{n+1} \rvert \leq \frac{1}{2}Mh^2$
 
 其中$M$是$\lvert \phi''(\bar{t_{n}}) \rvert$在区间$[a,b]$上的最大值
+
+**全局截断误差**
+
+$$\lvert E_{n} \rvert \leq Kh$$
+
+所以欧拉法是一种 **first-order method**
