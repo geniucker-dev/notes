@@ -39,3 +39,24 @@ $$y_{n} = y_{n+1} - h\mathrm{f}(t_{n+1},y_{n+1})$$
 2. 除了第一步以外，输入数据只是真实值的近似
 3. 计算机精度
 
+前两个造成了 **整体截断误差（global truncation error）** 
+
+$$E_{n} = \phi(t_{n}) - y_{n}$$
+
+其中$y=\phi(t)$是解，$y_n$是数值解
+
+第三个造成了 **舍入误差（round-off error）**
+
+$$R_{n} = y_{n} - Y_{n}$$
+
+其中$Y_n$是计算机实际上算出来的
+
+那么绝对误差
+
+$$
+\begin{aligned}
+\lvert \phi(t_{n}) - Y_{n} \rvert &= \lvert \phi(t_{n})-y_{n} + y_{n} - Y_{n} \rvert \\
+&\leq \lvert \phi(t_{n})-y_{n} \rvert + \lvert y_{n} - Y_{n} \rvert \\
+&= E_{n} + 
+\end{aligned}
+$$
