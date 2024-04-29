@@ -57,6 +57,34 @@ $$
 \begin{aligned}
 \lvert \phi(t_{n}) - Y_{n} \rvert &= \lvert \phi(t_{n})-y_{n} + y_{n} - Y_{n} \rvert \\
 &\leq \lvert \phi(t_{n})-y_{n} \rvert + \lvert y_{n} - Y_{n} \rvert \\
-&= E_{n} + 
+&= E_{n} + R_{n}
 \end{aligned}
 $$
+
+### 局部截断误差
+
+$\phi'(t) = \mathrm{f}(t,\phi(t))$
+
+$\phi''(t) = \mathrm{f}_{t}(t,\phi(t))+\mathrm{f}_{y}(t,\phi(t))\mathrm{f}(t,\phi(t))$
+
+然后我们使用泰勒级数在$t_{n}$处展开$\phi$
+
+$\phi(t_{n}+h) = \phi(t_{n}) + \phi'(t_{n})h + \frac{1}{2}\phi''(\bar{t_{n}})h^2$
+
+其中$\bar{t_{n}}$是$t_{n}<\bar{t_{n}}<t_{n}+h$的某一点
+
+进行带入，我们得到
+
+$\phi(t_{n+1}) = \phi(t_{n}) + h\mathrm{f}(t_{n},\phi(t_{n})) + \frac{1}{2}\phi''(\bar{t_{n}})h^2$
+
+所以
+
+$y_{n+1}^* = \phi(t_{n}) + h\mathrm{f}(t_{n},\phi(t_{n}))$
+
+所以上面欧拉法的局部误差项就是
+
+$e_{n+1} = \phi(t_{n+1}) - y_{n+1}^*=\frac{1}{2}\phi''(\bar{t_{n}})h^2$
+
+$\lvert e_{n+1} \rvert \leq \frac{1}{2}Mh^2$
+
+其中$M$是$\lvert \phi''(\bar{t_{n}}) \rvert$在区间$[a,b]$上的最大值
