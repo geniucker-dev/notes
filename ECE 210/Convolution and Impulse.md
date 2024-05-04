@@ -166,3 +166,42 @@ $$\text{T.D.}\quad \mathrm{f}(t)*\mathrm{\delta'}(t) = \mathrm{f'}(t)$$
 ## Impulse Response
 
 ### Fourier transform of power signals
+
+#### Example1: 算$\cos(\omega_{c}t)$的傅里叶变换
+
+$$\cos(\omega_{c}t) = \frac{e^{j\omega_{c}t}+e^{-j\omega_{c}t}}{2}$$
+
+$$\mathcal{F}\{\cos(\omega_{c}t)\} = \frac{\mathcal{F\{e^{j\omega_{c}t}\}}+\mathcal{F}\{e^{-j\omega_{c}t}\}}{2}$$
+
+现在我们来求$\mathcal{F}\{e^{j\omega_{c}t}\}$
+
+我们知道
+
+$$
+\begin{aligned}
+& \mathrm{f}(t)\leftrightarrow \mathrm{F}(\omega) \\
+& \mathrm{f}(t)e^{j\omega_{c}t} \leftrightarrow \mathrm{F}(\omega-\omega_{c}) \\
+& \mathrm{\delta}(t) \leftrightarrow 1 \\
+& 1 \leftrightarrow 2\pi \mathrm{\delta}(-\omega) = 2\pi \mathrm{\delta}(\omega)
+\end{aligned}
+$$
+
+所以
+
+$$1 \cdot e^{j\omega_{c}t} \leftrightarrow 2\pi \mathrm{\delta}(\omega-\omega_{c})$$
+
+同理
+
+$$1 \cdot e^{-j\omega_{c}t} \leftrightarrow 2\pi \mathrm{\delta}(\omega+\omega_{c})$$
+
+所以
+
+$$
+\begin{aligned}
+\mathcal{F}\{\cos(\omega_{c}t)\} &= \frac{1}{2}[2\pi \mathrm{\delta}(\omega-\omega_{c}) + 2\pi \mathrm{\delta}(\omega+\omega_{c})] \\
+&= \pi \mathrm{\delta}(\omega-\omega_{c}) + \pi \mathrm{\delta}(\omega+\omega_{c})
+\end{aligned}
+$$
+
+#### Example2: 算$\mathrm{f}(t)\cos(\omega_{t})$的傅里叶变换
+
