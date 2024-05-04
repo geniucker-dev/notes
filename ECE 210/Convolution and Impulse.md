@@ -251,7 +251,7 @@ $$
 
 然后根据 Example3
 
-$$P(\omega) = \frac{2\pi}{T}\mathrm{\delta}(\omega-n\omega_{0})$$
+$$P(\omega) = \frac{2\pi}{T}\mathrm{\delta}\left( \omega-n \frac{2\pi}{T} \right)$$
 
 其中$\omega_{0} = \frac{2\pi}{T}$
 
