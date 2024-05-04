@@ -222,3 +222,5 @@ $$
 &= \frac{1}{2}[\mathrm{F}(\omega-\omega_{c})+\mathrm{F}(\omega+\omega_{c})]
 \end{aligned}
 $$
+
+#### Example3: 周期信号
