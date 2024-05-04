@@ -165,3 +165,4 @@ $$\text{T.D.}\quad \mathrm{f}(t)*\mathrm{\delta'}(t) = \mathrm{f'}(t)$$
 
 ## Impulse Response
 
+### Fourier transform of power signals
