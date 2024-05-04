@@ -223,4 +223,37 @@ $$
 \end{aligned}
 $$
 
-#### Example3: 周期信号
+#### Example3: 周期信号$\mathrm{f}(t)$的傅里叶变换
+
+$$\mathrm{f}(t) = \sum_{-\infty}^\infty F_{n}e^{jn\omega_{0}t}$$
+
+$$
+\begin{aligned}
+\mathcal{F}\{\mathrm{f}(t)\} &= \mathcal{F}\left\{  \sum_{-\infty}^\infty F_{n}e^{jn\omega_{0}t}  \right\} \\
+&= \sum_{-\infty}^\infty \mathcal{F}\{F_{n}e^{jn\omega_{0}t} \} \\
+&= \sum_{-\infty}^\infty 2\pi F_{n} \mathrm{\delta}(\omega-n\omega_{0})
+\end{aligned}
+$$
+
+#### Example4: 下面这个函数的傅里叶变换
+
+$$p(t) = \sum_{-\infty}^\infty \mathrm{\delta}(t-nT)$$
+
+我们先写成傅里叶级数的形式
+
+$$
+\begin{aligned}
+P_{n} &= \frac{1}{T}\int_{T} p(t)e^{-jn\omega_{o}t} \, \mathrm{d}t \\
+&= \frac{1}{T} \int_{-\frac{T}{2}}^{\frac{T}{2}} \mathrm{\delta}(t)e^{-jn\omega_{o}t} \, \mathrm{d}t \\
+&= \frac{1}{T}
+\end{aligned}
+$$
+
+然后根据 Example3
+
+$$P(\omega) = \frac{2\pi}{T}\mathrm{\delta}(\omega-n\omega_{0})$$
+
+其中$\omega_{0} = \frac{2\pi}{T}$
+
+### Sampling
+
