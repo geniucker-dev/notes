@@ -205,3 +205,20 @@ $$
 
 #### Example2: 算$\mathrm{f}(t)\cos(\omega_{t})$的傅里叶变换
 
+用以下的性质
+
+$$
+\begin{aligned}
+& \mathrm{f}(t)\cdot \mathrm{g}(t) \leftrightarrow \frac{1}{2\pi}\mathrm{F}(\omega)*\mathrm{G}(\omega) \\
+& \mathrm{f}(t)* \mathrm{g}(t) \leftrightarrow \mathrm{F}(\omega)\cdot\mathrm{G}(\omega) \\
+\end{aligned}
+$$
+
+所以
+
+$$
+\begin{aligned}
+\mathcal{F}\{\mathrm{f}(t)\cos(\omega_{c}t)\} &= \frac{1}{2\pi} \mathrm{F}(\omega) *[\pi \mathrm{\delta}(\omega-\omega_{c}) + \pi \mathrm{\delta}(\omega+\omega_{c})] \\
+&= \frac{1}{2}[\mathrm{F}(\omega-\omega_{c})+\mathrm{F}(\omega+\omega_{c})]
+\end{aligned}
+$$
