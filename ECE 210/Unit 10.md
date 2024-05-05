@@ -44,4 +44,14 @@ $$\int_{-\infty}^{\infty} \lvert \mathrm{h}(t) \rvert  \, \mathrm{d}t < \infty$$
 
 如果一个系统是LTI，那么他是causal的当且仅当他的脉冲响应有如下性质：
 
-- $\mathrm{h}(t)=0$ if $t<0$
+$$\mathrm{h}(t)=0$ if $t<0$$
+
+证明：
+
+$$
+\begin{aligned}
+y(t) &= \mathrm{h}(t)*\mathrm{f}(t) \\
+&=\int_{-\infty}^{\infty} \mathrm{h}(\tau)\mathrm{f}(t-\tau) \, \mathrm{d}\tau \\
+&= \int_{-\infty}^{0} \mathrm{h}(\tau)\mathrm{f}(t-\tau) \, \mathrm{d}\tau + \int_{-\infty}^{\infty} \mathrm{h}(\tau)\mathrm{f}(t-\tau) \, \mathrm{d}\tau \int_{-\infty}^{\infty} \mathrm{h}(\tau)\mathrm{f}(t-\tau) \, \mathrm{d}\tau
+\end{aligned}
+$$
