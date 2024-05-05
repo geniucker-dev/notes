@@ -265,4 +265,28 @@ $$f_{n}=\mathrm{f}(nT),\quad -\infty<n<\infty$$
 
 在一定条件下可以，这里就要提到 Nyquist Sampling Theorem
 
-如果一个函数$\mathrm{f}(t)$为带宽为$B$的带限信号，意思是傅里叶变换之后
+如果一个函数$\mathrm{f}(t)$为带宽为$B$的带限信号，也就是$\mathrm{f}(t)$不含有频率高于$B$ Hz的成分，或者说傅里叶变换之后$\omega$大于$\Omega_{0}$的时候为0，其中$\Omega_{0}=2\pi B$（如下图）。如果采样周期为$T$，$\frac{1}{T} > 2B$，那么可以还原原信号
+
+![[assets/Pasted image 20240505170501.png]]
+
+下面我们就来说如何还原以及上面的定理为什么正确
+
+令$\mathrm{s}(t) = f_{n}p(t)=\mathrm{f}(t)p(t)$，其中$p(t)$是impulse train$p(t) = \sum_{-\infty}^\infty \mathrm{\delta}(t-nT)$
+
+进行傅里叶变换
+
+
+$$
+\begin{aligned}
+S(\omega) &= \frac{1}{2\pi} \mathrm{F}(\omega)*P(\omega) \\
+&= \frac{1}{2\pi}\mathrm{F}(\omega)*\left[\sum_{n=-\infty}^\infty\frac{2\pi}{T}\mathrm{\delta}\left( \omega-n \frac{2\pi}{T} \right)\right] \\
+&= \frac{1}{T} \sum_{-\infty}^\infty \left[ \mathrm{F}(\omega)*\mathrm{\delta}\left( \omega-n \frac{2\pi}{T} \right) \right] \\
+&= \frac{1}{T} \sum_{-\infty}^\infty \mathrm{F}\left( \omega-n\omega_{0} \right)
+\end{aligned}
+$$
+
+![[assets/Pasted image 20240505171319.png | 600]]
+
+接下来我们只需要用$H(\omega) = T  \mathrm{rect}\left( \frac{\omega}{2\Omega_{0}} \right)$就能得到$\mathrm{F}(\omega)$。但是这里有一个问题，就是可能重叠，如下图，所以我们需要$\omega_{0}-\Omega_{0}>\Omega_{0}\implies \omega_{0}>2\Omega_{0} \implies \frac{1}{T}>2B$
+
+![[assets/Pasted image 20240505171552.png | 600]]
