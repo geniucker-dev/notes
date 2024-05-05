@@ -55,3 +55,13 @@ y(t) &= \mathrm{h}(t)*\mathrm{f}(t) \\
 &= \int_{-\infty}^{0^-} \mathrm{h}(\tau)\underbrace{ \mathrm{f}(t-\tau) }_{ \text{未来} } \, \mathrm{d}\tau + \int_{0}^{\infty} \mathrm{h}(\tau)\underbrace{ \mathrm{f}(t-\tau) }_{ \text{现在和过去} } \, \mathrm{d}\tau
 \end{aligned}
 $$
+
+### LTIC系统
+
+一个LTIC系统要满足以下条件
+
+- 线性（Linear）
+- 时不变（Time-invariant）
+- Causal
+
+一个信号$\mathrm{f}(t)$如果可以作为一个LTIC脉冲响应，那么他是causal的
