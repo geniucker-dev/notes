@@ -39,3 +39,9 @@ $$\int_{-\infty}^{\infty} \lvert \mathrm{h}(t) \rvert  \, \mathrm{d}t < \infty$$
 举个例子，如果$y(t)=\mathrm{f}(t+8)$，这里$t$时刻的输出取决于$t+8$时刻的输入，所以他不是causal的
 
 如果输出$y(t)$取决于未来的输入，那么这个系统是**non-causal** (unrealizable)
+
+### 定理
+
+如果一个系统是LTI，那么他是causal的当且仅当他的脉冲响应有如下性质：
+
+- $\mathrm{h}(t)=0$ if $t<0$
