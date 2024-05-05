@@ -52,6 +52,6 @@ $$
 \begin{aligned}
 y(t) &= \mathrm{h}(t)*\mathrm{f}(t) \\
 &=\int_{-\infty}^{\infty} \mathrm{h}(\tau)\mathrm{f}(t-\tau) \, \mathrm{d}\tau \\
-&= \int_{-\infty}^{0^-} \mathrm{h}(\tau)\mathrm{f}(t-\tau) \, \mathrm{d}\tau + \int_{0}^{\infty} \mathrm{h}(\tau)\mathrm{f}(t-\tau) \, \mathrm{d}\tau
+&= \int_{-\infty}^{0^-} \mathrm{h}(\tau)\underbrace{ \mathrm{f}(t-\tau) }_{ \text{未来} } \, \mathrm{d}\tau + \int_{0}^{\infty} \mathrm{h}(\tau)\underbrace{ \mathrm{f}(t-\tau) }_{ \text{现在和过去} } \, \mathrm{d}\tau
 \end{aligned}
 $$
