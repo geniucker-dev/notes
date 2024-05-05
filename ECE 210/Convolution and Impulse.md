@@ -263,3 +263,6 @@ $$f_{n}=\mathrm{f}(nT),\quad -\infty<n<\infty$$
 
 我们能否精确还原原函数？
 
+在一定条件下可以，这里就要提到 Nyquist Sampling Theorem
+
+如果一个函数$\mathrm{f}(t)$为带宽为$B$的带限信号，意思是傅里叶变换之后
