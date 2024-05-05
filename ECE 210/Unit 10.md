@@ -19,3 +19,6 @@ $$y(t) = \mathrm{u}(t)*\mathrm{h}(t)$$
 $$\frac{\mathrm{d}}{\mathrm{d}t}y(t) = \frac{\mathrm{d}}{\mathrm{d}t}\mathrm{u}(t)*\mathrm{h}(t) = \mathrm{\delta}(t)*\mathrm{h}(t) = \mathrm{h}(t)$$
 
 $$\mathrm{h}(t) = \frac{\mathrm{d}}{\mathrm{d}t}y(t)$$
+
+## Bounded input-bounded output (BIBO) stability
+
