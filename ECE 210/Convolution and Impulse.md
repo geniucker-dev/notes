@@ -257,3 +257,4 @@ $$P(\omega) = \frac{2\pi}{T}\mathrm{\delta}\left( \omega-n \frac{2\pi}{T} \right
 
 ### Sampling
 
+考虑下面这个问题：如果对于一个连续函数
