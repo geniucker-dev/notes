@@ -52,6 +52,6 @@ $$
 \begin{aligned}
 y(t) &= \mathrm{h}(t)*\mathrm{f}(t) \\
 &=\int_{-\infty}^{\infty} \mathrm{h}(\tau)\mathrm{f}(t-\tau) \, \mathrm{d}\tau \\
-&= \int_{-\infty}^{0} \mathrm{h}(\tau)\mathrm{f}(t-\tau) \, \mathrm{d}\tau + \int_{-\infty}^{\infty} \mathrm{h}(\tau)\mathrm{f}(t-\tau) \, \mathrm{d}\tau \int_{-\infty}^{\infty} \mathrm{h}(\tau)\mathrm{f}(t-\tau) \, \mathrm{d}\tau
+&= \int_{-\infty}^{0^-} \mathrm{h}(\tau)\mathrm{f}(t-\tau) \, \mathrm{d}\tau + \int_{0}^{\infty} \mathrm{h}(\tau)\mathrm{f}(t-\tau) \, \mathrm{d}\tau
 \end{aligned}
 $$
