@@ -32,3 +32,5 @@ $$\mathrm{h}(t) = \frac{\mathrm{d}}{\mathrm{d}t}y(t)$$
 
 $$\int_{-\infty}^{\infty} \lvert \mathrm{h}(t) \rvert  \, \mathrm{d}t < \infty$$
 
+## Causality and LTIC system
+
