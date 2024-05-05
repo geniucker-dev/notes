@@ -46,7 +46,7 @@ $$\int_{-\infty}^{\infty} \lvert \mathrm{h}(t) \rvert  \, \mathrm{d}t < \infty$$
 
 $$\mathrm{h}(t)=0$ if $t<0$$
 
-证明：
+证明（**下面和课件里写的不一样，感觉教授算错了**）：
 
 $$
 \begin{aligned}
