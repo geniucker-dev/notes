@@ -257,4 +257,9 @@ $$P(\omega) = \frac{2\pi}{T}\mathrm{\delta}\left( \omega-n \frac{2\pi}{T} \right
 
 ### Sampling
 
-考虑下面这个问题：如果对于一个连续函数
+考虑下面这个问题：如果对于一个连续函数，我们只有对其进行周期采样的离散值，也就是说，我们只知道
+
+$$f_{n}=\mathrm{f}(nT),\quad -\infty<n<\infty$$
+
+我们能否精确还原原函数？
+
