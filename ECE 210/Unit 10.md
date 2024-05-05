@@ -34,3 +34,4 @@ $$\int_{-\infty}^{\infty} \lvert \mathrm{h}(t) \rvert  \, \mathrm{d}t < \infty$$
 
 ## Causality and LTIC system
 
+定义：如果输出$y(t)$不依赖未来的输入
