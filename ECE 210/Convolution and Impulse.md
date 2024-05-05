@@ -235,7 +235,7 @@ $$
 \end{aligned}
 $$
 
-#### Example4: 下面这个函数的傅里叶变换
+#### Example4: 下面这个impuse train的傅里叶变换
 
 $$p(t) = \sum_{-\infty}^\infty \mathrm{\delta}(t-nT)$$
 
