@@ -34,4 +34,8 @@ $$\int_{-\infty}^{\infty} \lvert \mathrm{h}(t) \rvert  \, \mathrm{d}t < \infty$$
 
 ## Causality and LTIC system
 
-定义：如果输出$y(t)$不依赖未来的输入
+定义：如果输出$y(t)$不依赖未来的输入，那么这个系统是causal的
+
+举个例子，如果$y(t)=\mathrm{f}(t+8)$，这里$t$时刻的输出取决于$t+8$时刻的输入，所以他不是causal的
+
+如果输出
