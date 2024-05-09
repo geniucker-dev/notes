@@ -10,7 +10,7 @@
 
 在数据结构中，为了方便表示，对于每一个子集我们用一个代表元素（representive element）来表示
 
-- 维护一个集合 $S=\{ S_{0}, S_{1}, \dots, s_{k} \}$
+- 维护一个集合 $S=\{ S_{0}, S_{1}, \dots, S_{k} \}$
 - 每个子集都有一个代表元素（representive element）
 - 接口：
     - `void makeset(const T& t);`
