@@ -81,6 +81,8 @@ $$
 
 ### 包络检测 Envelop Detection
 
+![[assets/Pasted image 20240509215255.png | 600]]
+
 $$
 \begin{aligned}
 \lvert \mathrm{x}(t) \rvert &=
