@@ -73,4 +73,3 @@ int DisjointSets:find(int i) {
 #### 最小高度
 
 根节点的值为$-h-1$
-
