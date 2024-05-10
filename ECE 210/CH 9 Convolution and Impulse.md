@@ -287,19 +287,28 @@ $$
 
 ![[assets/Pasted image 20240505171319.png | 600]]
 
-接下来我们只需要用$H(\omega) = T  \mathrm{rect}\left( \frac{\omega}{2\Omega_{0}} \right)$就能得到$\mathrm{F}(\omega)$。但是这里有一个问题，就是可能重叠，如下图，所以我们需要$\omega_{0}-\Omega_{0}>\Omega_{0}\implies \omega_{0}>2\Omega_{0} \implies \frac{1}{T}>2B$
+接下来我们只需要用$\mathrm{H}(\omega) = T  \mathrm{rect}\left( \frac{\omega}{2\Omega_{0}} \right)$就能得到$\mathrm{F}(\omega)$。但是这里有一个问题，就是可能重叠，如下图，所以我们需要$\omega_{0}-\Omega_{0}>\Omega_{0}\implies \omega_{0}>2\Omega_{0} \implies \frac{1}{T}>2B$
 
 ![[assets/Pasted image 20240505171552.png | 600]]
 
-**课件里的计算貌似有问题，以后再说**，课件如下，右上角的框内容和课本不同
+接下来我们来还原原函数
 
+为了得到$\mathrm{F}(\omega)$，我们需要一个$\mathrm{H}(\omega) = T\mathrm{rect}\left( \frac{\omega}{2\Omega_{0}} \right)$
 
-![[assets/Pasted image 20240505203524.png | 600]]
+为了方便，我们可以取$2\Omega_{0} = \omega_{o}$
 
-先直接给出结果
+所以$\mathrm{H(\omega)} = T\mathrm{rect}\left( \frac{T\omega}{2\pi} \right)$
 
-**Nyquist Sampling Theorem**
+根据公式$\mathrm{sinc}(Wt) \leftrightarrow \frac{\pi}{W}\mathrm{rect}\left( \frac{\omega}{2W} \right)$
 
-$$\mathrm{f}(t) = \sum_{n=-\infty}^\infty f_{n} \mathrm{sinc}\left( \frac{\pi}{T}(t-nT) \right)$$
+我们可以得到$\mathrm{h}(t) = \mathrm{sinc}\left( \frac{\pi}{T}t \right)$
 
-当$$\frac{1}{T}>2B$$
+所以
+
+$$
+\begin{aligned}
+\mathrm{f}(t) &= \left( \sum_{n=-\infty}^\infty \mathrm{f}(nT)\mathrm{\delta}(t-nT) \right)*\mathrm{sinc}\left( \frac{\pi}{T}t \right) \\
+&= \sum_{-\infty}^\infty \mathrm{f}(nT)\mathrm{\delta}(t-nT)*\mathrm{sinc}\left( \frac{\pi}{T}t \right) \\
+&= \sum_{-\infty}^\infty f_{n} \mathrm{sinc}\left( \frac{\pi}{T}(t-nT) \right)
+\end{aligned}
+$$
