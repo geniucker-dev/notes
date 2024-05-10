@@ -271,7 +271,7 @@ $$f_{n}=\mathrm{f}(nT),\quad -\infty<n<\infty$$
 
 下面我们就来说如何还原以及上面的定理为什么正确
 
-令$\mathrm{s}(t) = f_{n}p(t)=\mathrm{f}(t)p(t)$，其中$p(t)$是impulse train$p(t) = \sum_{-\infty}^\infty \mathrm{\delta}(t-nT)$
+令$\mathrm{s}(t) = \mathrm{f}(t)p(t)$，其中$p(t)$是impulse train$p(t) = \sum_{-\infty}^\infty \mathrm{\delta}(t-nT)$
 
 进行傅里叶变换
 
