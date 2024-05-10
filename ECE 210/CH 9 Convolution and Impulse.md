@@ -251,7 +251,7 @@ $$
 
 然后根据 Example3
 
-$$\sum_{n=-\infty}^\infty P(\omega) = \frac{2\pi}{T}\mathrm{\delta}\left( \omega-n \frac{2\pi}{T} \right)$$
+$$P(\omega) = \sum_{n=-\infty}^\infty \frac{2\pi}{T}\mathrm{\delta}\left( \omega-n \frac{2\pi}{T} \right)$$
 
 其中$\omega_{0} = \frac{2\pi}{T}$
 
