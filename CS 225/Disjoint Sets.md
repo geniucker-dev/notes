@@ -94,3 +94,25 @@ int DisjointSets:find(int i) {
 
 ![[assets/Pasted image 20240510102524.png | 600]]
 
+## Path Compression
+
+原先上面的树可能比较高，查询的时候就要花比较长的时间，所以可以在查询的时候把路径上的节点全部连到根节点，这样理想情况下时间复杂度是$\mathrm{O}(1)$
+
+## 分析
+
+### 迭代对数函数 Iterated log function
+
+$$
+\log^*(n) = \begin{cases}
+o & n \leq 1 \\
+1 + \log^*(\log(n)) & n > 1
+\end{cases}
+$$
+
+意思就是连续算多少次对数之后值小于等于1，这里面的对数一般是以2为底
+
+例子：$\log^*(2^{65536})$
+
+$$\to 65536\to 16\to 4\to 2\to 1$$
+
+用了5次，所以结果是5
