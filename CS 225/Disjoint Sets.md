@@ -73,3 +73,11 @@ int DisjointSets:find(int i) {
 #### 最小高度
 
 根节点的值为$-h-1$
+
+![[assets/Pasted image 20240510101455.png | 600]]
+
+然后把较矮的树合并到较高的书店根节点
+
+![[assets/Pasted image 20240510101523.png | 600]]
+
+然后只有在原来两树高度相同的时候需要更新高度
