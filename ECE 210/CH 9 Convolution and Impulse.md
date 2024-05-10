@@ -308,7 +308,7 @@ $$
 $$
 \begin{aligned}
 \mathrm{f}(t) &= \left( \sum_{n=-\infty}^\infty \mathrm{f}(nT)\mathrm{\delta}(t-nT) \right)*\mathrm{sinc}\left( \frac{\pi}{T}t \right) \\
-&= \sum_{-\infty}^\infty \mathrm{f}(nT)\mathrm{\delta}(t-nT)*\mathrm{sinc}\left( \frac{\pi}{T}t \right) \\
-&= \sum_{-\infty}^\infty f_{n} \mathrm{sinc}\left( \frac{\pi}{T}(t-nT) \right)
+&= \sum_{n=-\infty}^\infty \mathrm{f}(nT)\mathrm{\delta}(t-nT)*\mathrm{sinc}\left( \frac{\pi}{T}t \right) \\
+&= \sum_{n=-\infty}^\infty f_{n} \mathrm{sinc}\left( \frac{\pi}{T}(t-nT) \right)
 \end{aligned}
 $$
