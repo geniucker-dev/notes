@@ -81,3 +81,4 @@ int DisjointSets:find(int i) {
 ![[assets/Pasted image 20240510101523.png | 600]]
 
 然后只有在原来两树高度相同的时候需要更新高度
+
