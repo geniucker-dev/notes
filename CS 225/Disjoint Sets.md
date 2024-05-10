@@ -98,6 +98,30 @@ int DisjointSets:find(int i) {
 
 原先上面的树可能比较高，查询的时候就要花比较长的时间，所以可以在查询的时候把路径上的节点全部连到根节点，这样理想情况下时间复杂度是$\mathrm{O}(1)$
 
+如果我们要对Union by Size的策略使用路径压缩
+
+我们只需要把查询函数从
+
+```cpp
+int DisjointSetBySize::find(int x) {
+    if (arr_[x] < 0) {
+        return x;
+    }
+    return find(arr_[x]);
+}
+```
+
+改为
+
+```cpp
+int DisjointSetBySize::find(int x) {
+    if (arr_[x] < 0) {
+        return x;
+    }
+    return (arr_[x]=find(arr_[x]));
+}
+```
+
 ## 分析
 
 ### 迭代对数函数 Iterated log function
@@ -118,6 +142,8 @@ $$\to 65536\to 16\to 4\to 2\to 1$$
 用了5次，所以结果是5
 
 ### 这里他的话很抽象，等会儿回来补
+
+![[assets/Pasted image 20240510110656.png | 600]]
 
 ### Uptree
 
