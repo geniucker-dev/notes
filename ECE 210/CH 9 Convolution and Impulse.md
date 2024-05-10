@@ -293,4 +293,13 @@ $$
 
 **课件里的计算貌似有问题，以后再说**，课件如下，右上角的框内容和课本不同
 
+
 ![[assets/Pasted image 20240505203524.png | 600]]
+
+先直接给出结果
+
+**Nyquist Sampling Theorem**
+
+$$\mathrm{f}(t) = \sum_{n=-\infty}^\infty f_{n} \mathrm{sinc}\left( \frac{\pi}{T}(t-nT) \right)$$
+
+当$$\frac{1}{T}>2B$$
