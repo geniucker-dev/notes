@@ -70,15 +70,27 @@ int DisjointSets:find(int i) {
 
 两种策略都能保证树的高度为$\mathrm{O}(\log(n))$
 
-#### 最小高度
+#### Union by Height
 
 根节点的值为$-h-1$
 
 ![[assets/Pasted image 20240510101455.png | 600]]
 
-然后把较矮的树合并到较高的书店根节点
+然后把较矮的树合并到较高的树的根节点
 
 ![[assets/Pasted image 20240510101523.png | 600]]
 
 然后只有在原来两树高度相同的时候需要更新高度
+
+#### Union by Size
+
+根节点的值为-size
+
+![[assets/Pasted image 20240510102420.png | 600]]
+
+然后把晓得合并到大的树的根节点
+
+更新size信息为两者之和
+
+![[assets/Pasted image 20240510102524.png | 600]]
 
