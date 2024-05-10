@@ -1,4 +1,4 @@
-    一个$m$阶B树的性质：
+一个$m$阶B树的性质：
 - 一个node内的key是有序的
 - 一个node包含至多$m-1$个keys
 - 内部node到child个数等于key个数+1
