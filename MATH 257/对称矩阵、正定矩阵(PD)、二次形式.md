@@ -35,3 +35,12 @@ $$\lambda_{2}v_{1}^Tv_{2} = \lambda_{1}v_{1}^Tv_{2} \implies (\lambda_{2}-\lambd
 
 ## 正定矩阵 Positive Definite Matrix (PD)
 
+对称矩阵如果满足下面的四个等价条件之一，那么是正定的
+
+1. 所有特征值都是正的
+2. 所有pivot都是正的
+3. 所有子行列式都是正的（意思是取左上角$1\times 1$或$2\times 2$或$\cdots$或$n\times n$然后算行列式，都是正的
+4. 对于任意非零向量$x$，都有$x^TSx$>0
+
+## 二次型矩阵 Matrix of the Quadratic Form
+
