@@ -6,7 +6,7 @@
 - 一个非根内部节点有$\left[ \mathrm{ceil}(m/2), m \right]$个孩子
 - 所有叶节点在同一层
 
-一个m阶高度为h的B树最少节点：$2t^h-1$，其中$h=\mathrm{ceil}(m/2)$
+一个m阶高度为h的B树最少节点：$2t^h-1$，其中$t=\mathrm{ceil}(m/2)$
 
 ## 时间复杂度
 
