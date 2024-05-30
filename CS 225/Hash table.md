@@ -9,6 +9,7 @@ SUHA: Simple Uniform Hashing Assumption，意思大概是均匀分布，定义�
 一个好的哈希函数满足：
 - 常数时间（$\mathrm{O}(1)$）
 - 确定性（如果$k_1==k_2 \implies h(k_1)==h(k_2)$
+- SUHA
 
 ## Collision Handlin
 
